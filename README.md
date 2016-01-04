@@ -13,4 +13,4 @@ De visualisatie bestaat uit een map met daarop de wijken van Haarlem in ongeveer
 De data haal ik van de huisartsenpraktijk waar ik werk. Deze praktijk bestaat uit vier huisartsen, met een totale patientenpopulatie van over de 10000 patienten. Data is makkelijk te verkrijgen vanuit het Huisarts Informatie Systeem dat door elke praktijk gebruikt wordt. Ik heb toegang tot deze data, en mag deze gebruiken zolang het niet mogelijk is dat de informatie naar specifieke personen kan leiden. 
 
 ### de initiele schets:
-
+![eerste schets] (https://github.com/PimVanAlphen/Programmeerproject/doc/eerste schets.png)
