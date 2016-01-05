@@ -1,6 +1,7 @@
 # Design
 
-## Componenten Visualisatie:
+## Componenten Visualisatie
+Hieronder staan de componenten van de visualisatie uitgewerkt
 
 ### Map
 De map geeft een visuele weergave van haarlem.
@@ -32,20 +33,28 @@ Ik bedoel met deze map structure een lijst van mapjes met hoofd categorieen, met
 - Benodigdheden: Deze structuur als een tooltip, het vervangt als het ware de zoekfunctie. Ze zouden ook samen in één window kunnen met de optie om tussen deze twee te switchen.
 
 #### Options field
+Het options field bevat de geselecteerde aandoeningen. Meerdere codes kunnen geselecteerd worden om een gecombineerde QUERY te doen (maximaal 2 om de privacy van de patienten te waarborgen (een grotere gecombineerde QUERY zou kunnen lijden tot informatie over de wijk waarin een bepaalde patient woont)). 
 
 - Interactie:
-  - Click: 
-- Benodigdheden:
-##### Interactie:
-##### Benodigdheden:
+  - Click: Als je op een categorie klikt, dan verdwijnt deze weer uit de het optie veld.
+  - Check box: Er is een check box bij de tweede regel van het veld om aan te vinken of je juist een combinatie wilt, of dat je wilt dat ze een andere bepaalde aandoening niet hebben (AND/OR/NOT operator). 
+- Benodigdheden: Weinig, dit lijkt mij basis programmeer werk.
 
-### Window 2
+### Window 2, Comparing Data in a bar chart
+
 #### Bar chart
-##### Interactie: 
-##### Benodigdheden:
+De bar chart geeft voor elke geselecteerde wijk een bar met als hoogte het aantal patienten wat voldoet aan de kriteria in de options field in die bepaalde wijk. 
 
-#### Checkbox
-##### Interactie: 
-##### Benodigdheden:
+- Interactie: 
+  - Click: klik op een bar om deze te laten verdwijnen uit de bar chart en de selectie van de betreffende wijk op te heffen. Daarnaast moet er ook een knop komen om weer de waarde van geheel haarlem weer te geven. Ook moet er een checkbox of een knop komen om te kunnen selecteren of je absolute of relatieve data wilt zien  (dus het aantal mensen, of het percentage van de patienten in de betreffende wijk).
+  - Hover: Hover over een bar om te zien wat de waarde van de bar is. De wijk van de bar licht ook op in de map.
+- Benodigdheden: Basis programmeren.
 
-### Componenten Dataset:
+## Componenten Dataset:
+De data set bestaat uit een lijst van alle patienten uit de praktijk. Van deze patienten staat genoteerd in welke wijk ze wonen, wat hun leeftijd is en  welke episodes ze hebben. Een episode representeerd in het huisarts informatie systeem (HIS) een klacht of aandoening waarmee een patient naar de dokter gekomen is. Komt een patient meermaals met dezelfde klacht, dan valt dat onder dezelfde episode. Episodes zijn dynamisch, wat inhoudt dat als iemand generieke klachten komt en het blijkt vervolgens om een specifiekere aandoening te gaan, dat de episode veranderd. 
+De data wordt door de HIS gegenereerd op basis van een in het HIS ingevoerde QUERY, waar de output een tab seperated value (TSV) lijst is. Deze data is makkelijk te importeren in D3. 
+
+## Overwegingen Design keuzes:
+- Map: als er in het optie wveld een mini QUERY is opgesteld, dan wordt vervolgens de map aangepast op basis van deze QUERY, zodat er in één oogopslag duidelijk is in welke wijk de meeste patienten aan deze criteria voldoen. Er zijn nu twee keuzes die gemaakt moetne worden:
+  1. codeer je absoluut of relatief: Het is voor mij nu nog lastig om in te zien wat handiger is. Ik kan mij voorstellen dat het handig is om te weten waar de meeste patienten wonen die aan de kriteria voldoen, om zo te kijken waar hulp het meeste nodig is. Maar als je niet weet hoeveel % dit van de totale patientenpopulatie in die wijk is, dan mis je misschien de ernst van het probleem. Ik denk dat het niet mogelijk is om beide in dezelfde map weer te geven, zonder de duidelijkheid in de weg te zitten. Dus dan moet er ergens een optie gegeven worden om tussen de twee mogelijkheden te switchen.
+  2. Hoe codeer je deze waardes: Er zijn verschillende mogelijkheden om de grootste waarde te coderen in de map. Ik zou het met kleur kunnen coderen en dan vervolgens er een legenda bij kunnen geven, die zich dynamisch aanpast op het moment dat er een nieuwe QUERY wordt gemaakt. Die legenda moet er eigenlijk sowieso komen. Dus de vraag is of ik het dan met kleur, of in zwart wit wil coderen. Ik denk dat een single hue color scheme het beste werkt, aangezien het aantal patienten maar 1 kant uit gaat (het kan niet negatief zijn). Daarnaast moet het in een aantal stappen gaan, anders is er moeilijk onderscheid te maken tussen de verschillende categorieen. Maar als ik dat doe, dan maak ik het wel weer minder gedatailleerd en esthetisch minder pleasing. Het is dan duidelijkheid in aflezen, maar met minder gradient dus verlies van detail. Het verlies van detail wordt opgeheven door de tooltip die je te zien krijgt als je over de map hovered. 
