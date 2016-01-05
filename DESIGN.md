@@ -24,8 +24,8 @@ De search bar maakt het zoeken naar aandoeningen klachten mogelijk op basis van 
   - Search engine: Er is een search engine nodig die de voorkant van de search kan herkennen in de gehele ICPC codes. Daarnaast is het misschien wel een idee om op de namen behorend bij de ICPC codes te kunnen zoeken, bijvoorbeeld dat een zoekopdracht naar angst de verschillende ICPC codes geeft voor de verschillende angststoornissen. Het zoeken zie ik het liefste realtime gebeuren, maar als dit te veel vereist van de browser snelheid hoeft het niet.
   - Aanvul opties: Het aanvullen van de meest gelijkende ICPC code met de zoekopdracht is in principe een uitbreiding van wat hierboven al beschreven staat, alleen staat nu de beste optie niet onder de zoekopdracht, maar overlapt deze de zoekopdracht. 
 
-#### Expanding/Collapsing map structure
-Ik bedoel met deze map structure een lijst van mapjes met hoofd categorieen, met een plusje ernaast. Als je dan op het plusje klikt, dan komt er een rijtje met sub mapjes die geindent zijn. 
+#### Tree view structure
+Ik bedoel met deze structure een lijst van mapjes met hoofd categorieen, met een plusje ernaast. Als je dan op het plusje klikt, dan komt er een rijtje met sub mapjes die geindent zijn. 
 
 - Interactie: 
   - Expand/Collapse: Klik op het plusje naast een map, of dubbelklik op een map, om de map uit te klappen. Je kunt uitgeklapte mapjes ook weer inklappen. Zo kun je alle mogelijke categorieen in hun hierarchische structuur exploreren. 
