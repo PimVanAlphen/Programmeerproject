@@ -1,10 +1,47 @@
+import csv
+import os
+import codecs
 # maak een dict aan om later bij een postcode de buurtcode te kunnen vinden
 postcodeDict = dict()
+SCRIPT_DIR = os.path.split(os.path.realpath(__file__))[0]
+
 
 def main():
-    fillPostcodeDict()
+    file = open('Episode, Postcode, Leeftijd.csv', 'r')
+    data = file.read()
+    file.close()
 
+    fillPostcodeDict()
+    rows = []
+    counterHaarlem = 0
+    counterBuiten = 0
+
+    # open de oorsprongkelijke CSV file (niet in de map included wegens privacy)
+    with open('Episode, Postcode, Leeftijd.csv', 'rb') as csvfile:
+        reader = csv.reader(csvfile)
+        for row in reader:
+            tmprow = []
+            text = row[0].split(';')
+            if text[1] in postcodeDict:
+                text[1] = postcodeDict[text[1]][:2]
+                counterHaarlem += 1
+            else:
+                counterBuiten += 1
+                continue
+
+            for t in text[:-1]:
+                tmprow.append(t)
+            rows.append(tmprow)
+
+    print "done"
+    print "In Haarlem:", counterHaarlem
+    print "Buiten Haarlem",  counterBuiten
+    save_csv(os.path.join(SCRIPT_DIR, 'dataproject.csv'), rows)
+
+
+# vul de dictionary met key value pairs van respectievelijk postcode en wijkcode
 def fillPostcodeDict():
+
     file = open('stratenlijst.txt', 'r')
     stratenlijst = file.read()
     file.close()
@@ -73,26 +110,36 @@ def fillPostcodeDict():
                     continue
         i += 1
 
+
+# kijk of een key in de Dictionary zit
 def checkKey(key):
     if key in postcodeDict.keys():
         return False
     return True
 
+
+# doorloop het alfabet tussen de letters. Nodig voor ranges in postcode letters (e.g. E - Z)
 def doorloopAlfabet(beginletter, eindletter):
     alfabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     indexBegin = alfabet.index(beginletter)
     indexEind = alfabet.index(eindletter)
     return alfabet[indexBegin:indexEind]
 
+
+# deze is gemaakt op basis van de indeling.txt (http://www.haarlem.buurtmonitor.nl/report/stratenlijst2013nw.pdf).
+# als er een buurtcode ingevoerd wordt, dan wordt op basis daarvan de buurt en de wijk bepaald.
+# nog niet nodig voor het bijwerken van de dataset, maar laten nodig in d3.
 def indeling(buurtcode):
     wijken = ["","OUDE STAD","SPOORBAAN LEIDEN","HAARLEM-OOST","HAARLEMMERHOUTKWARTIER","WESTOEVER NOORDER BUITEN SPAARNE","TER KLEEF EN TE ZAANEN","OUD-SCHOTEN EN SPAARNDAM","DUINWIJK","SCHALKWIJK"]
     buurten = ["",["Centrum","Stationsbuurt","Spaarnwouderbuurt"],["Zijlweg-oost","Leidsebuurt","Leidsevaartbuurt","Houtvaartkwartier"],["Oude Amsterdamsebuurt","Potgieterbuurt","Van Zeggelenbuurt","Slachthuisbuurt","Parkwijk","Waardepolder","Zuiderpolder"],["Koninginnebuurt","Kleine Hout","Den Hout","Rozenprieel"],["Patrimoniumbuurt","Transvaalbuurt","Indischebuurt-zuid","Indischebuurt-noord","Frans Halsbuurt"],["Kleverpark","Bomenbuurt","Planetenwijk","Sinnevelt","Overdelft"],["Dietsveld","Vogelenbuurt","Delftwijk","Vondelkwartier","Spaarndam-west"],["Ramplaankwartier","Zijlweg-west","Oosterduin"],["Europawijk","Boerhaavewijk","Molenwijk","Meerwijk"]]
     return [buurten[int(buurtcode[0])][int(buurtcode[1])],wijken[int(buurtcode[0])]]
 
+
 # http://stackoverflow.com/questions/19859282/check-if-a-string-contains-a-number
 # checks if there is a number in string s
 def num_there(s):
     return any(i.isdigit() for i in s)
+
 
 if __name__ == '__main__':
 	main()
