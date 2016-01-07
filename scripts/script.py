@@ -15,18 +15,24 @@ def main():
     rows = []
     counterHaarlem = 0
     counterBuiten = 0
-
-    # open de oorsprongkelijke CSV file (niet in de map included wegens privacy)
     with open('Episode, Postcode, Leeftijd.csv', 'rb') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             tmprow = []
             text = row[0].split(';')
+
+            # kijk of de postcode in de database (dict) van postcodes zit,
+            # dus of het een postcode in haarlem is.
             if text[1] in postcodeDict:
                 text[1] = postcodeDict[text[1]][:2]
                 counterHaarlem += 1
             else:
                 counterBuiten += 1
+                continue
+
+            # kijk of de episode code een administratieve verrichting is, dus
+            # niet gaat over een klacht of aandoening maar over een handeling
+            if int(text[0][1:3]) >= 30 and int(text[0][1:3]) < 70:
                 continue
 
             for t in text[:-1]:
@@ -39,7 +45,6 @@ def main():
     save_csv(os.path.join(SCRIPT_DIR, 'dataproject.csv'), rows)
 
 
-# vul de dictionary met key value pairs van respectievelijk postcode en wijkcode
 def fillPostcodeDict():
 
     file = open('stratenlijst.txt', 'r')
@@ -111,14 +116,12 @@ def fillPostcodeDict():
         i += 1
 
 
-# kijk of een key in de Dictionary zit
 def checkKey(key):
     if key in postcodeDict.keys():
         return False
     return True
 
 
-# doorloop het alfabet tussen de letters. Nodig voor ranges in postcode letters (e.g. E - Z)
 def doorloopAlfabet(beginletter, eindletter):
     alfabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     indexBegin = alfabet.index(beginletter)
@@ -126,9 +129,6 @@ def doorloopAlfabet(beginletter, eindletter):
     return alfabet[indexBegin:indexEind]
 
 
-# deze is gemaakt op basis van de indeling.txt (http://www.haarlem.buurtmonitor.nl/report/stratenlijst2013nw.pdf).
-# als er een buurtcode ingevoerd wordt, dan wordt op basis daarvan de buurt en de wijk bepaald.
-# nog niet nodig voor het bijwerken van de dataset, maar laten nodig in d3.
 def indeling(buurtcode):
     wijken = ["","OUDE STAD","SPOORBAAN LEIDEN","HAARLEM-OOST","HAARLEMMERHOUTKWARTIER","WESTOEVER NOORDER BUITEN SPAARNE","TER KLEEF EN TE ZAANEN","OUD-SCHOTEN EN SPAARNDAM","DUINWIJK","SCHALKWIJK"]
     buurten = ["",["Centrum","Stationsbuurt","Spaarnwouderbuurt"],["Zijlweg-oost","Leidsebuurt","Leidsevaartbuurt","Houtvaartkwartier"],["Oude Amsterdamsebuurt","Potgieterbuurt","Van Zeggelenbuurt","Slachthuisbuurt","Parkwijk","Waardepolder","Zuiderpolder"],["Koninginnebuurt","Kleine Hout","Den Hout","Rozenprieel"],["Patrimoniumbuurt","Transvaalbuurt","Indischebuurt-zuid","Indischebuurt-noord","Frans Halsbuurt"],["Kleverpark","Bomenbuurt","Planetenwijk","Sinnevelt","Overdelft"],["Dietsveld","Vogelenbuurt","Delftwijk","Vondelkwartier","Spaarndam-west"],["Ramplaankwartier","Zijlweg-west","Oosterduin"],["Europawijk","Boerhaavewijk","Molenwijk","Meerwijk"]]
@@ -139,6 +139,16 @@ def indeling(buurtcode):
 # checks if there is a number in string s
 def num_there(s):
     return any(i.isdigit() for i in s)
+
+
+def save_csv(filename, rows):
+    with open(filename, 'wb') as f:
+        writer = csv.writer(f)  # implicitly UTF-8
+        writer.writerow([
+            'episode','buurtcode','leeftijd'
+        ])
+
+        writer.writerows(rows)
 
 
 if __name__ == '__main__':
