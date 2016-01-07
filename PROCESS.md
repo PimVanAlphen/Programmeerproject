@@ -10,5 +10,7 @@ Ik heb vandaag een begin gemaakt met de design.md, daarin heb ik beschreven hoe 
 # dag 3
 #### Begin van de dag: 
 Vandaag ga ik de dataset afmaken. Er is nog een belangrijk iets dat ik moet uitzoeken, en dat is welke aandoeningen ik erin wil hebben. Ik moet sowieso nog alle administratieve zaken eruit filteren, want het maakt weinig uit om daarop te zoeken. Ik kan ze er wel in laten, maar naast dat ze weinig toevoegen, zorgen ze ook nog voor extra entries in bepaalde hoofdcategorieen. Ik zou ze er natuurlijk ook gewoon uit kunnen filteren op het moment dat er gezocht wordt op een hoofdcategorie, maar ik voorzie dat dat problemenn geeft later (of dat het in ieder geval lastiger is). Ik hoop dat het vandaag helemaal lukt om alle data ready te hebben, zodat ik morgen (of liever nog vanmiddag) echt kan beginnen met het programmeren.
-#### Einde van de dag: 
 
+# dag 4
+#### Begin van de dag: 
+Ik was vergeten aan het einde van dag 3 te posten, dus dat komt nu maar in dag 4. Het is mij gelukt om de CSV helemaal om te schrijven, zodat ik nu de patientendata precies heb zoals ik het nodig heb. Daarnaast heb ik de episodelijst gevonden/gescraped. Ik moet alleen nog een goede manier vinden om deze te noteren. Ik kan nu dus bijna beginnen met programmeren. Mijn doel is om vandaag in ieder geval een opzet te hebben voor de visualisatie. Ik bedoel hiermee dat ik dus dat ik een html wil hebben die de css en de d3 laadt, dat de d3 de data in laadt, dat je al een map met de wijken van haarlem ziet, en dat je de twee windows zonder inhoudt al kunt zien en misschien slepen. Ik wil gewoon nu het hele framework hebben, zodat ik morgen kan beginnen met de echte functionaliteit.
