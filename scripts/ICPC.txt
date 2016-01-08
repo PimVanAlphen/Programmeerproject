@@ -1,60 +1,20 @@
-A: Algemeen
-B: Bloed, bloedvormende organen en immuunstelsel
-D: Spijsverteringsorganen
-F: Oog
-H: Oor
-K: Cardiovasculair stelsel
-L: Bewegingsapparaat
-N: Zenuwstelsel
-P: Psychische problemen
-R: Luchtwegen
-S: Huid
-T: Endocriene klieren, stofwisseling en voeding
-U: Urinewegen
-W: Zwangerschap, bevalling en geboorteregeling
-X: Geslachtsorganen vrouw, inclusief borsten
-Y: Geslachtsorganen man, inclusief borsten
-Z: Sociale problemen
--30 Lichamelijk onderzoek volledig
--31 Lichamelijk onderzoek gericht
--32 Gevoeligheidstest
--33 Microbiologisch/immunologisch onderzoek
--34 Bloedonderzoek
--35 Urineonderzoek
--36 Faecesonderzoek
--37 Histologie/exfoliatieve cytologie
--38 Ander laboratoriumonderzoek
--39 Functieonderzoek
--40 Endoscopie
--41 Röntgen-/beeldvormend onderzoek
--42 Elektrische afleidingen
--43 Ander diagnostisch onderzoek
--44 Immunisatie/preventieve medicatie
--45 Advies/observatie/voorlichting/dieet
--46 Overleg binnen eerste lijn
--47 Overleg met specialist
--48 vervallen
--49 Andere preventieve verrichting
--50 Medicatie/recept/injectie
--51 Incisie/drain/aspiratie [ex. catheterisatie -53]
--52 Excisie/biopsie/débridement/cauterisatie
--53 Instrumentatie/catheterisatie/intubatie/dilatatie
--54 Hechting/gipsspalk/prothese
--55 Lokale injectie/infiltratie
--56 Verband/compressie/tamponade
--57 Revalidatie
--58 Therapeutisch gesprek/counselen
--59 Andere therapeutische verrichting
--60 Uitslag onderzoek/verrichting
--61 Uitslag/verslag andere hulpverlener
--62 Administratieve verrichting
--63 Vervolgcontact niet gespecificeerd
--64 Episode op initiatief huisarts
--65 Episode op initiatief derde
--66 Verwijzing eerstelijnshulpverlener [ex. arts]
--67 Verwijzing specialist/ziekenhuis
--68 Andere verwijzing
--69 Andere reden voor contact
+A Algemeen
+B Bloed, bloedvormende organen en immuunstelsel
+D Spijsverteringsorganen
+F Oog
+H Oor
+K Cardiovasculair stelsel
+L Bewegingsapparaat
+N Zenuwstelsel
+P Psychische problemen
+R Luchtwegen
+S Huid
+T Endocriene klieren, stofwisseling en voeding
+U Urinewegen
+W Zwangerschap, bevalling en geboorteregeling
+X Geslachtsorganen vrouw, inclusief borsten
+Y Geslachtsorganen man, inclusief borsten
+Z Sociale problemen
 A01 Gegeneraliseerde pijn
 A02 Koude rillingen
 A03 Koorts

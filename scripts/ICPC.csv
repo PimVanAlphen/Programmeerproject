@@ -1,0 +1,1263 @@
+ICPCcode,naam
+A,Algemeen
+B,"Bloed, bloedvormende organen en immuunstelsel"
+D,Spijsverteringsorganen
+F,Oog
+H,Oor
+K,Cardiovasculair stelsel
+L,Bewegingsapparaat
+N,Zenuwstelsel
+P,Psychische problemen
+R,Luchtwegen
+S,Huid
+T,"Endocriene klieren, stofwisseling en voeding"
+U,Urinewegen
+W,"Zwangerschap, bevalling en geboorteregeling"
+X,"Geslachtsorganen vrouw, inclusief borsten"
+Y,"Geslachtsorganen man, inclusief borsten"
+Z,Sociale problemen
+A01,Gegeneraliseerde pijn
+A02,Koude rillingen
+A03,Koorts
+A04,Moeheid/zwakte
+A04.01,Chronisch vermoeidheidssyndroom
+A05,Algehele achteruitgang
+A06,Flauwvallen/syncope
+A07,Coma
+A08,Zwelling [ex. K07]
+A09,Transpiratieproblemen
+A09.01,Nachtzweten
+A09.02,Gelokaliseerd overmatig zweten
+A10,Bloeding
+A12,Allergie/allergische reactie
+A12.01,Anafylactische shock
+A12.02,Angioneurotisch/Quinckes oedeem
+A13,Bezorgdheid over (bij)werking geneesmiddel
+A14,Koliek bij zuigeling
+A15,Overmatig huilende zuigeling
+A16,Prikkelbare/drukke zuigeling
+A17,Algemene symptomen/klachten zuigeling
+A20,Verzoek/gesprek over euthanasie
+A25,Angst voor de dood
+A26,Angst voor kanker
+A27,Angst voor andere ziekte
+A28,Functiebeperking/handicap
+A29,Andere algemene symptomen/klachten
+A29.01,Hart- en vaatziekten in familie-anamnese
+A29.02,Mammacarcinoom in familie-anamnese
+A29.03,Ovariumcarcinoom in familie-anamnese
+A29.04,Coloncarcinoom in familie-anamnese
+A29.05,Diabetes in familie-anamnese
+A29.06,Hypercholesterolemie in familie-anamnese
+A29.07,DES-gebruik moeder
+A49.01,Ouderenzorg
+A49.02,Polyfarmacie-Medicatiebeoordeling
+A70,Gegeneraliseerde tuberculose [ex. R70]
+A71,Mazelen
+A72,Waterpokken
+A73,Malaria
+A74,Rode hond
+A75,Mononucleosis infectiosa
+A76,Andere virusziekte met exantheem
+A76.01,Exanthema subitum/zesde ziekte
+A76.02,Erythema infectiosum/vijfde ziekte
+A76.03,Hand-voet-mondziekte
+A77,Andere virusziekte(n)
+A78,Andere infectieziekte(n)
+A78.05,Borreliose/Lyme
+A79,Maligniteit met onbekende primaire lokalisatie
+A80,Ongeval/letsel
+A81,Multiple traumata/inwendig letsels
+A82,Laat gevolg van letsel
+A84,Geneesmiddelintoxicatie
+A85,Geneesmiddelbijwerking
+A85.01,Allergie voor geneesmiddel
+A85.02,Spotting bij gebruik hormonale anticonceptie
+A86,Intoxicatie andere chemische stof
+A87,Complicatie(s) medische behandeling
+A87.01,Leven met stoma
+A87.02,Status na transplantatie
+A88,Schadelijk gevolg fysische factor [ex. H85]
+A88.01,Perniones
+A88.02,Zonnesteek
+A88.03,Reisziekte
+A89,Aanwezigheid/gevolg prothese
+A89.01,Aanwezigheid pacemaker/interne defibrillator
+A90,Multiple aangeboren afwijkingen
+A90.01,Syndroom van Down
+A91,Afwijkende uitslag(en) onderzoek
+A91.05,Gestoorde glucosetolerantie
+A91.06,Subklinische hypothyreoïdie
+A91.07,Subklinische hyperthyreoïdie
+A92,Toxoplasmose
+A93,Dysmatuur/prematuur/immatuur levendgeborene
+A94,Perinatale morbiditeit
+A95,Perinatale mortaliteit
+A95.01,Doodgeboorte
+A95.02,Overlijden pasgeborene
+A96,Dood/overlijden [ex. A95]
+A96.01,Natuurlijke dood
+A96.02,Onnatuurlijke dood
+A97,Geen ziekte
+A97.01,Preventief onderzoek/consult
+A97.02,Kinderwens
+A99,Andere gegeneraliseerde/niet gespecificeerde ziekte(n)
+A99.01,Dragerschap met risico voor eigen persoon
+A99.02,Dragerschap met risico voor nageslacht/omgeving
+B02,Vergrote lymfeklier(en)
+B03,Andere symptomen/klachten lymfeklieren
+B04,Symptomen/klachten bloed/bloedvormende organen
+B25,Angst voor AIDS
+B26,Angst voor kanker bloed/lymfestelsel
+B27,Angst voor andere ziekte bloed/lymfestelsel
+B28,Functiebeperking/handicap bloed/lymfestelsel
+B29,Andere symptomen/klachten bloed/lymfestelsel
+B70,Acute lymphadenitis
+B71,Chronische/niet-gespecificeerde lymphadenitis
+B72,Ziekte van Hodgkin
+B72.01,Ziekte van Hodgkin
+B72.02,Non-Hodgkin lymfoom
+B73,Leukemie
+B74,Andere maligniteit bloed/lymfestelsel
+B74.01,Multipel myeloom
+B75,Benigne/niet-gespecificeerd neoplasma bloed/lymfestelsel
+B76,Miltruptuur
+B77,Ander letsel bloed/lymfestelsel
+B78,Erfelijke hemolytische anemie
+B78.01,Thalassemie
+B78.02,Sikkelcelanemie
+B78.03,Anemie door G6PD-deficiëntie
+B79,Andere aangeboren afwijking bloed/lymfestel
+B80,Ijzergebrekanemie
+B81,Pernicieuze/foliumzuurdeficiëntie-anemie
+B81.01,Foliumzuurdeficiëntie-anemie
+B81.02,Vitamine B12-deficiëntie-anemie
+B82,Andere/niet-gespecificeerde anemie
+B83,Purpura/stollingsstoornis/afwijkende trombocyten
+B83.01,Hemofilie A/B
+B83.02,Idiopathische trombocytopenische purpura (ITP)
+B83.06,Verhoogde stollingsneiging
+B84,Afwijking leukocyten
+B85,Onverklaarde afwijking bloedonderzoek
+B86,Andere hematologische afwijking(en)
+B86.01,Verhoogde BSE
+B87,Splenomegalie
+B90,HIV-infectie (AIDS/ARC)
+B90.01,Seropositief zonder symptomen
+B90.02,AIDS/ARC
+B99,Andere ziekte(n) bloed/lymfestelsel
+B99.01,Lymfoedeem
+D01,Gegeneraliseerde buikpijn/buikkrampen
+D02,Maagpijn
+D03,Zuurbranden
+D04,Pijn anus/rectum
+D05,Perianale jeuk
+D06,Andere gelokaliseerde buikpijn
+D08,Flatulentie/meteorisme/boeren
+D09,Misselijkheid
+D10,Braken
+D11,Diarree
+D12,Obstipatie
+D13,Geelzucht
+D14,Haematemesis
+D15,Melaena
+D16,Rectaal bloedverlies
+D17,Incontinentie voor ontlasting
+D18,Verandering ontlasting/defecatiepatroon
+D19,Symptomen/klachten tanden/tandvlees
+D20,Symptomen/klachten mond/tong/lippen/speekselklieren
+D21,Slikproblemen
+D22,Wormen/oxyuren/andere parasieten
+D22.01,Oxyuriasis
+D22.02,Ascariasis
+D22.03,Taeniasis
+D24,Zwelling in de buik
+D25,Verandering omvang/uitzetting buik
+D26,Angst voor kanker spijsverteringsorganen
+D27,Angst voor andere ziekte spijsverteringsorganen
+D28,Functiebeperking/handicap spijsverteringsorganen
+D29,Andere symptomen/klachten spijsverteringsorganen
+D29.01,Ascites
+D70,"Infectieuze diarree, dysenterie"
+D70.01,Salmonella-darminfectie
+D70.02,Shigella-/Yersinia-/Campylobacter-darminfectie
+D70.03,Giardiasis
+D70.04,Amoebiasis
+D71,Bof
+D72,Virus hepatitis
+D72.01,Acute hepatitis A
+D72.02,Acute hepatitis B
+D72.03,Acute hepatitis C
+D72.04,Drager hepatitis B/chronische hepatitis B
+D72.05,Drager hepatitis C/chronische hepatitis C
+D73,Veronderstelde gastro-intestinale infectie
+D74,Maligniteit maag
+D75,Maligniteit colon/rectum
+D76,Maligniteit pancreas
+D77,Andere/niet-gespecif.maligniteit spijsverteringsorganen
+D77.01,Maligniteit oesofagus
+D77.02,Maligniteit speekselklieren
+D77.03,Maligniteit lip/mond/tong
+D77.04,Maligniteit lever/galblaas/galwegen
+D78,Benigne neoplasma spijsverteringsorganen
+D78.01,Familiaire polyposis coli
+D79,Corpus alienum via mond/anus
+D80,Ander letsel spijsverteringsorganen
+D81,Aangeboren afwijking(en) spijsverteringsorganen
+D81.01,Sluitingsdefect lip/kaak/verhemelte
+D81.02,Te kort tongriempje
+D81.03,Pylorusstenose
+D81.04,Meckel's divertikel
+D82,Ziekte tanden/tandvlees
+D82.01,Gingivitis
+D82.02,Temporomandibulair gewrichtsprobleem
+D83,Ziekte mond/tong/lippen/speekselklieren
+D83.01,Sialoadenitis/sialolithiasis
+D83.02,Aften
+D83.03,Perleche/cheilitis angularis
+D84,Ziekte oesofagus
+D84.01,Divertikel oesofagus
+D84.02,Oesofagale reflux zonder oesofagitis
+D84.03,Oesofagale reflux met oesofagitis
+D84.05,Oesophagusstenose
+D85,Ulcus duodeni
+D86,Ander ulcus pepticum
+D86.01,Ulcus ventriculi
+D87,Stoornis maagfunctie
+D87.01,Gastritis/duodenitis
+D87.02,Dyspepsie/indigestie
+D88,Appendicitis
+D89,Hernia inguinalis
+D90,Hernia diafragmatica/hiatus
+D91,Andere hernia abdominalis
+D91.01,Hernia femoralis
+D91.02,Hernia umbilicalis
+D91.03,Hernia cicatricalis
+D92,Diverticulose/diverticulitis
+D93,Spastisch colon/IBS
+D94,Colitis ulcerosa/chronische enteritis (regionalis)
+D94.01,Colitis ulcerosa
+D94.02,Ziekte van Crohn
+D95,Fissura ani/perianaal abces
+D95.01,Fissura ani
+D95.02,Fistula ani
+D95.03,Perianaal abces
+D96,Hepatomegalie
+D97,Cirrose/andere leverziekte
+D97.04,Cirrose
+D97.05,Leversteatose
+D98,Cholecystitis/cholelithiasis
+D98.01,Cholecystitis
+D98.02,Cholangitis
+D98.03,Cholelithiasis zonder -itis
+D99,Andere ziekte(n) spijsverteringsorganen
+D99.01,Niet-gespecificeerde ileus
+D99.02,Invaginatie
+D99.03,Peritonitis
+D99.04,Pancreatitis
+D99.05,Darmadhesies
+D99.06,Coeliakie
+D99.07,Koemelkallergie
+F01,Pijn oog
+F02,Rood oog
+F03,Afscheiding uit oog
+F03.01,Tranende ogen
+F04,Mouches volantes/flitsen/flikkeringen
+F05,Andere visussymptomen/-klachten [ex. F94]
+F13,Afwijkend gevoel aan oog
+F14,Afwijkende oogbewegingen
+F15,Afwijkend aspect oog
+F16,Symptomen/klachten oogleden
+F17,Symptomen/klachten van bril
+F18,Symptomen/klachten van contactlens
+F27,Angst voor ziekte oog
+F28,Functiebeperking/handicap oog/adnexen
+F29,Andere symptomen/klachten oog/adnexen
+F70,Infectieuze conjunctivitis
+F70.01,Bacteriële conjunctivitis
+F70.02,Virale conjunctivitis
+F71,Allergische/niet-gespecificeerde conjunctivitis
+F71.01,Allergische conjunctivitis
+F72,Blepharitis/hordeolum/chalazion
+F72.01,Blepharitis
+F72.02,Hordeolum
+F72.03,Chalazion
+F73,"Andere infectie/ontsteking oog/adnexen [ex. F85,F86]"
+F73.01,Dacryocystitis
+F73.02,Keratitis (incl herpes zonder ulcus)
+F73.03,Iridocyclitis
+F74,Neoplasma oog/adnexen
+F74.01,Maligniteit oog/adnexen
+F74.02,Benigne neoplasma oog/adnexen
+F75,Kneuzing/bloeding oog/adnexen
+F75.01,Subconjunctivale bloeding
+F75.02,Blauw oog
+F76,Corpus alienum oog
+F79,Ander letsel oog/adnexen
+F79.01,Lasogen/sneeuwblindheid
+F79.02,Cornea-erosie
+F80,Stenose traankanaal zuigeling
+F81,Andere aangeboren afwijking(en) oog/adnexen
+F82,Netvliesloslating
+F83,Retinopathie
+F83.01,Diabetische retinopathie
+F83.02,Hypertensieve retinopathie
+F84,Maculadegeneratie
+F85,Ulcus corneae
+F85.01,Keratitis dendritica
+F86,Trachoom
+F91,Refractie afwijking(en)
+F91.01,Presbyopie
+F91.02,Hypermetropie
+F91.03,Myopie
+F91.04,Astigmatisme
+F92,Cataract/staar
+F92.01,Seniel cataract
+F93,Glaucoom/verhoogde oogdruk
+F93.01,Verhoogde oogdruk zonder (bekend) glaucoom
+F93.02,Primair gesloten kamerhoek glaucoom/acuut glaucoom
+F93.03,Primair open kamerhoek glaucoom/glaucoma simplex
+F93.04,Secundair glaucoom
+F94,Blindheid (elke graad/vorm)
+F95,Strabismus/scheelzien
+F99,Andere ziekte(n) oog/adnexen
+F99.01,Xanthelasma(ta) palpebrae
+F99.02,Blepharochalasis
+F99.03,Entropion/ectropion
+F99.04,Pterygium
+F99.05,Scleritis/episcleritis
+F99.06,Insufficiënte traanfilm
+H01,Oorpijn
+H02,"Gehoorklachten [ex. H84,H85,H86]"
+H03,Oorsuizen/tinnitus
+H04,Afscheiding uit oor
+H05,Bloed in/uit oor
+H13,Verstopt gevoel oor
+H15,Ontevreden/bezorgd over aspect oor
+H15.01,Flapoor/afstaand oor
+H27,Angst voor ziekte oor
+H28,Functiebeperking/handicap oor
+H29,Andere symptomen/klachten oor
+H70,Otitis externa
+H71,Otitis media acuta/myringitis
+H72,Otitis media met effusie
+H73,Tubair catarre/tubastenose
+H74,Chronische otitis media/andere infectie oor
+H74.01,Chronische otitis media
+H74.02,Mastoïditis
+H74.03,Cholesteatoom
+H75,Neoplasma oor
+H75.01,Maligniteit oor
+H75.02,Benigne neoplasma oor
+H76,Corpus alienum in oor
+H77,Perforatie trommelvlies [ex. H71]
+H78,Oppervlakkig letsel oor
+H79,Ander letsel oor
+H80,Aangeboren afwijking(en) oor
+H81,Overmatig cerumen
+H82,Vertigosyndroom/labyrinthitis [ex. N17]
+H82.01,Ziekte/syndroom van Menière
+H82.02,Labyrinthitis/vestibulitis
+H82.03,Benigne paroxysmale positie duizeligheid
+H83,Otosclerose
+H84,Presbyacusis
+H85,Akoestisch letsel/lawaaidoofheid
+H86,Doofheid/slechthorendheid
+H99,Andere ziekte(n) oor
+K01,Pijn toegeschreven aan hart
+K02,Druk/beklemming toegeschreven aan hart [ex. R02]
+K03,Andere pijn toegeschreven aan hartvaatstelsel
+K04,Hartkloppingen/bewust van hartslag
+K05,Andere afwijkende/onregelmatige hartslag
+K06,Opgezette aderen
+K07,Gezwollen enkels/enkeloedeem
+K24,Angst voor hartaanval
+K25,Angst voor hoge bloeddruk
+K27,Angst voor andere ziekte hartvaatstelsel
+K28,Functiebeperking/handicap hartvaatstelsel
+K29,Andere symptomen/klachten hartvaatstelsel
+K29.01,Cyanose
+K29.02,Koude extremiteiten/acra
+K49.01,CVRM
+K70,Infectieziekte hartvaatstelsel
+K71,Acuut reuma/reumatische hartziekte
+K71.01,Acuut reuma zonder hartziekte
+K71.02,Acuut reuma met hartziekte
+K72,Neoplasma hartvaatstelsel
+K72.01,Maligniteit hartvaatstelsel
+K72.02,Benigne neoplasma hartvaatstelsel
+K73,Aangeboren afwijking(en) hartvaatstelsel
+K73.01,Atriumseptumdefect (ASD)
+K73.02,Ventrikelseptumdefect (VSD)
+K74,Angina pectoris
+K74.01,Instabiele angina pectoris
+K74.02,Stabiele angina pectoris
+K75,Acuut myocardinfarct
+K76,Andere/chronische ischemische hartziekte
+K76.01,Coronairsclerose
+K76.02,Vroeger myocardinfarct (> 4 wkn geleden)
+K77,Decompensatio cordis
+K77.01,Acute decompensatio cordis/astma cardiale
+K77.02,Chronische decompensatio cordis
+K78,Boezemfibrilleren/-fladderen
+K79,Paroxysmale tachycardie
+K79.01,Supraventriculaire tachycardie
+K79.02,Ventriculaire tachycardie
+K80,Ectopische slagen/extrasystolen
+K80.01,Supraventriculaire extrasystolen
+K80.02,Ventriculaire extrasystolen
+K80.03,Sick sinus syndroom
+K81,Hartgeruis
+K82,Cor pulmonale
+K83,Niet-reumatische klepaandoening
+K83.01,Aortastenose
+K83.02,Mitralisinsufficiëntie
+K84,Andere hartziekte(n)
+K84.01,WPW-syndroom
+K84.02,Atrioventriculair blok
+K84.03,Cardiomyopathie
+K84.07,Lang QT interval syndroom (LQTS)
+K85,"Verhoogde bloeddruk [ex. K86,K87]"
+K86,Essentiële hypertensie zonder orgaanbeschadiging
+K87,Hypertensie met orgaanbeschadiging/secundaire hypertensie
+K88,Orthostatische hypotensie
+K89,Passagère cerebrale ischemie/TIA
+K90,Cerebrovasculair accident (CVA)
+K90.01,Subarachnoïdale bloeding
+K90.02,Intracerebrale bloeding
+K90.03,Cerebraal infarct
+K91,"Atherosclerose [ex. K76,K90]"
+K92,Andere ziekte(n) perifere arteriën
+K92.01,Claudicatio intermittens
+K92.02,Syndroom van Raynaud
+K92.03,Ziekte van Buerger
+K93,Longembolie/longinfarct
+K94,Thrombophlebitis/flebotrombose
+K94.01,Diepe veneuze trombose benen
+K94.02,Oppervlakkige thrombophlebitis
+K95,Varices benen [ex. S97]
+K96,Hemorroïden
+K99,Andere ziekte(n) hartvaatstelsel
+K99.01,Aneurysma aorta
+K99.02,Slokdarmvarices
+K99.03,Varicocele
+K99.04,Chronisch veneuze insufficiëntie
+K99.05,Arteriitis temporalis met/zonder polymyalgia rheumatica
+K99.06,Perifere diabetische angiopathie
+L01,Nek symptomen/klachten [ex. N01]
+L02,Rug symptomen/klachten
+L03,Lage-rugpijn zonder uitstraling [ex. L86]
+L04,Borstkas symptomen/klachten
+L05,Flank symptomen/klachten
+L06,Oksel symptomen/klachten
+L07,Kaak(gewricht) symptomen/klachten
+L08,Schouder symptomen/klachten
+L09,Arm symptomen/klachten
+L10,Elleboog symptomen/klachten
+L11,Pols symptomen/klachten
+L12,Hand/vinger symptomen/klachten
+L13,Heup symptomen/klachten
+L14,Been/dijbeen symptomen/klachten
+L15,Knie symptomen/klachten
+L16,Enkel symptomen/klachten
+L17,Voet/teen symptomen/klachten
+L17.01,Metatarsalgie
+L18,Spierpijn
+L18.01,Fibromyalgie
+L19,Symptomen meerdere/niet-gespecificeerde spieren
+L20,Symptomen meerdere/niet-gespecificeerde gewrichten
+L26,Angst voor kanker bewegingsapparaat
+L27,Angst voor andere ziekte bewegingsapparaat
+L28,Functiebeperking/handicap bewegingsapparaat
+L29,Andere/meerdere symptomen/klachten bewegingsapparaat
+L49.01,Fractuurpreventie
+L70,Infectieziekte bewegingsapparaat
+L70.01,Osteomyelitis
+L70.02,Septische arthritis
+L71,Neoplasma bewegingsapparaat
+L71.01,Maligniteit bewegingsapparaat
+L71.02,Benigne neoplasma bewegingsapparaat
+L72,Fractuur radius/ulna
+L73,Fractuur tibia/fibula
+L74,Fractuur hand/voet
+L74.01,Fractuur ossa phalanges hand
+L74.02,Fractuur ossa phalanges voet
+L75,Fractuur femur
+L75.01,Fractuur collum femoris
+L76,Andere fractuur
+L76.01,Fractuur schedel
+L76.02,Fractuur neus
+L76.03,Fractuur clavicula
+L76.04,Fractuur humerus
+L76.05,Fractuur rib
+L76.06,Fractuur wervelkolom
+L76.07,Fractuur bekken
+L76.08,Fractuur patella
+L77,Verstuiking/distorsie enkel
+L78,Verstuiking/distorsie knie
+L79,Andere verstuiking/distorsie
+L79.01,Whiplashtrauma cervicale wervelkolom
+L80,Luxatie/subluxatie
+L80.01,(Sub)luxatie schouder
+L80.02,(Sub)luxatie kaakgewricht
+L80.03,(Sub)luxatie vinger
+L80.04,(Sub)luxatie acromio-claviculair gewricht
+L80.05,(Sub)luxatie radiuskop/zondagsarmpje
+L81,Ander letsel bewegingsapparaat
+L81.01,Coup de fouet/zweepslag
+L81.02,Ribcontusie
+L82,Aangeboren afwijking(en) bewegingsapparaat
+L82.01,Aangeboren heupluxatie/heupdysplasie
+L82.02,Spina bifida occulta
+L82.03,Halsrib
+L82.04,Klompvoet
+L83,Syndroom cervicale wervelkolom
+L83.01,Hernia cervicalis
+L84,Artrose/spondylose wervelkolom
+L84.01,Artrose/spondylose
+L84.02,Spondylolyse/-listhesis
+L85,Verworven afwijking(en) wervelkolom
+L85.01,Scoliose
+L86,Lage-rugpijn met uitstraling
+L86.01,HNP (thoracaal/lumbaal)
+L87,Ganglion gewricht/pees
+L88,Reumatoïde arthritis/verwante aandoening(en)
+L88.01,Reumatoïde arthritis
+L88.02,Morbus Bechterew (spondylitis ankylopoetica)
+L89,Coxartrose
+L90,Gonartrose
+L91,Andere artrose/verwante aandoening(en)
+L92,Schoudersyndroom/PHS
+L93,Epicondylitis lateralis
+L94,Osgood-Schlatter/andere osteochondropathie
+L94.01,Osteochondritis dissecans
+L94.02,Ziekte van Osgood-Schlatter
+L94.03,Epifysiolyse femurkop
+L94.04,Ziekte van Legg-Calvé-Perthes
+L95,Osteoporose
+L95.01,Osteopenie
+L95.02,Osteoporose
+L96,Acuut letsel meniscus/kniebanden
+L96.01,Meniscusscheur (lat./med.)
+L96.02,Letsel lig. cruciata (anterior/posterior)
+L96.03,Letsel collaterale kniebanden
+L96.04,Gecombineerd letsel menisci/lig.cruciata/collaterale/kapsel
+L97,Chronisch inwendig trauma knie
+L97.01,Oud meniscusletsel
+L97.02,Niet-traumatische meniscusafwijking
+L97.03,Instabiele knie
+L97.04,Corpus liberum knie
+L98,Verworven afwijking(en) extremiteiten
+L98.01,Mallet-vinger
+L98.02,Pes planus
+L98.03,Hallux valgus
+L98.04,Hamerteen
+L98.05,Beenlengteverschil
+L99,Andere ziekte(n) bewegingsapparaat
+L99.01,Bursitis [ex. L92]
+L99.02,Tendovaginitis/tendinitis
+L99.03,Contractuur van Dupuytren
+L99.04,Trigger finger
+L99.05,Epicondylitis medialis
+L99.06,Syndroom van Tietze
+L99.07,Retropatellaire chondropathie /patellofemoraal syndroom
+L99.08,Hielspoor/fasciitis plantaris
+L99.09,Hyperlaxiteit
+L99.10,Corpus liberum gewricht [ex. L97]
+L99.11,Pseudartrose
+L99.12,Polymyalgia reumatica
+N01,"Hoofdpijn [ex. N02,N89,R09]"
+N01.01,Geneesmiddel geïnduceerde hoofdpijn
+N02,Spanningshoofdpijn
+N03,Aangezichtspijn
+N04,Restless legs
+N05,Tintelen vingers/voeten/tenen
+N06,Andere sensibiliteitstoornis/onwillekeurige bewegingen
+N06.01,Onwillekeurige bewegingen
+N07,Convulsies/stuipen (inclusief koorts-)
+N07.01,Koortsstuipen
+N16,Andere afwijking(en) reuk/smaak
+N17,Vertigo/duizeligheid [ex. H82]
+N17.01,Draaiduizeligheid
+N17.02,Licht in het hoofd
+N18,Verlamming/krachtverlies [ex. A04]
+N19,Spraak-/fonatiestoornis
+N26,Angst voor kanker zenuwstelsel
+N27,Angst voor andere ziekte zenuwstelsel
+N28,Functiebeperking/handicap zenuwstelsel
+N29,Andere symptomen/klachten zenuwstelsel
+N70,Poliomyelitis/andere enterovirus infectie
+N70.01,Poliomyelitis acuta
+N70.02,Slow-virus infectie zenuwstelsel
+N71,Meningitis/encephalitis
+N71.01,Bacteriële meningitis
+N71.02,Virale meningitis
+N71.03,Encephalitis
+N71.04,Myelitis
+N72,Tetanus
+N73,Andere infectieziekte(n) zenuwstelsel
+N74,Maligniteit zenuwstelsel
+N75,Benigne neoplasma zenuwstelsel
+N76,Niet-gespecificeerd neoplasma zenuwstelsel
+N79,Hersenschudding
+N80,Ander letsel hoofd [ex. L76]
+N80.01,Posttraumatisch extraduraal hematoom
+N80.02,Posttraumatisch subduraal hematoom
+N80.03,Posttraumatisch intracerebraal hematoom
+N80.04,Contusio cerebri
+N81,Ander letsel zenuwstelsel
+N85,Aangeboren afwijking(en) zenuwstelsel
+N85.01,Spina bifida
+N85.02,Hydrocephalus
+N86,Multiple sclerose
+N87,"Parkinsonisme, ziekte van Parkinson"
+N87.01,Ziekte van Parkinson
+N88,Epilepsie (alle vormen)
+N89,Migraine
+N90,Cluster headache
+N91,Facialis parese/Bell's palsy
+N92,Trigeminus neuralgie
+N93,Carpale tunnelsyndroom
+N94,Andere perifere neuritis/neuropathie
+N94.01,Syndroom van Guillain-Barré
+N94.02,Diabetische neuropathie
+N94.03,Thoracic outlet syndroom
+N94.04,Meralgia paresthetica
+N94.05,Peroneusparalyse
+N94.06,Metatarsalgie van Morton
+N94.07,Fantoompijn
+N99,Andere ziekte(n) zenuwstelsel
+N99.01,ALS
+N99.02,Myasthenia gravis
+N99.03,Spierziekte
+P01,Angstig/nerveus/gespannen gevoel
+P02,Crisis/voorbijgaande stressreactie
+P02.01,Post-traumatische stressstoornis
+P03,Down/depressief gevoel
+P04,Prikkelbaar/boos gevoel/gedrag
+P05,Zich oud voelen/gedragen
+P06,Slapeloosheid/andere slaapstoornis
+P06.01,Slaapapnoesyndroom
+P07,Libido verlies/vermindering
+P08,Seksuele bevrediging verlies/vermindering
+P08.01,Impotentie
+P08.02,Vaginisme
+P08.03,Ejaculatio praecox
+P09,Bezorgdheid over seksuele voorkeur
+P10,Stamelen/stotteren/tics
+P10.01,Stamelen/stotteren
+P10.02,Tics/stereotypie
+P11,Eetprobleem(en) bij kind
+P12,Enuresis [ex. U04]
+P13,Encopresis
+P15,Chronisch alcoholmisbruik
+P15.01,Alcoholisme
+P15.02,Delirium tremens
+P15.03,Syndroom van Wernicke-Korsakoff
+P15.05,Problematisch alcoholgebruik
+P15.06,Binge drinken
+P16,Acuut alcohol misbruik/intoxicatie
+P17,Tabaksmisbruik
+P18,Geneesmiddelmisbruik
+P19,Drugsmisbruik
+P19.01,Misbruik/verslaving soft drugs
+P19.02,Misbruik/verslaving hard drugs
+P20,Geheugen-/concentratie-/oriëntatiestoornissen
+P21,Overactief kind/hyperkinetisch syndroom
+P22,Andere zorgen gedrag kind
+P23,Andere zorgen gedrag adolescent
+P24,Specifiek leerprobleem
+P24.01,Dyslexie
+P24.02,Specifieke taal-/spraakontwikkelingsstoornis
+P24.03,Motorische ontwikkelingsstoornis
+P25,Levensfaseprobleem volwassene
+P27,Angst voor psychische ziekte
+P28,Functiebeperking/handicap psychische ziekte
+P29,Andere psychische symptomen/klachten
+P70,Seniele dementie/Alzheimer
+P70.01,Ziekte van Alzheimer
+P70.02,Multi-infarct dementie
+P71,Andere organische psychose(n)
+P71.04,Delier [ex.P15.02]
+P72,Schizofrenie
+P73,Affectieve psychose
+P73.02,Bipolaire stoornis
+P74,Angststoornis/angsttoestand
+P74.01,Paniekaanvallen/stoornis
+P74.02,Gegeneraliseerde angststoornis
+P75,Hysterie/hypochondrie
+P76,Depressie
+P76.01,Post-partum depressie
+P77,Suïcidepoging
+P77.01,Suïcidepoging
+P77.02,Suïcide
+P78,Neurasthenie/surmenage
+P79,Andere neurose
+P79.01,Fobie
+P79.02,Dwangneurose
+P80,Persoonlijkheids-/karakterstoornis
+P80.01,Borderline persoonlijkheidsstoornis
+P80.02,Gokverslaving
+P85,Mentale retardatie/intellectuele achterstand
+P98,Andere/niet gespecificeerde psychose(n)
+P99,Andere psychische stoornissen
+R01,Pijn toegeschreven aan luchtwegen [ex. R09]
+R02,Dyspnoe/benauwdheid toegeschreven aan luchtwegen [ex. K02]
+R03,Piepende ademhaling
+R04,Andere problemen ademhaling
+R04.01,Snurken
+R05,Hoesten
+R06,Epistaxis/neusbloeding
+R07,Niezen/neusverstopping/loopneus
+R08,Andere symptomen/klachten neus
+R09,Symptomen/klachten sinussen (inclusief pijn)
+R21,Symptomen/klachten keel
+R21.01,Keelpijn
+R22,Symptomen/klachten tonsillen
+R23,Symptomen/klachten stem
+R24,Haemoptoë
+R25,Abnormaal sputum/slijm
+R26,Angst voor kanker luchtwegen
+R27,Angst voor andere ziekte luchtwegen
+R28,Functiebeperking/handicap luchtwegen
+R29,Andere symptomen/klachten luchtwegen
+R29.01,Hikken
+R70,Tuberculose luchtwegen [ex. A70]
+R71,Kinkhoest
+R72,Streptokokken-angina/roodvonk
+R72.01,Streptokokken-angina
+R72.02,Roodvonk
+R73,Furunkel/abces neus
+R74,Acute infectie bovenste luchtwegen
+R74.01,Gewone verkoudheid
+R74.02,Acute pharyngitis
+R75,Acute/chronische sinusitis
+R75.01,Acute sinusitis
+R75.02,Chronische sinusitis
+R76,Acute tonsillitis/peritonsillair abces
+R76.01,Acute tonsillitis
+R76.02,Peritonsillair abces
+R77,Acute laryngitis/tracheïtis
+R77.01,Laryngitis subglottica/pseudocroup
+R77.02,Acute epiglottitis
+R78,Acute bronchitis/bronchiolitis
+R80,Influenza [ex. R81]
+R81,Pneumonie
+R81.01,Legionella pneumonie
+R82,Pleuritis alle vormen [ex. R70]
+R83,Andere infectie(s) luchtwegen
+R83.01,Difterie
+R83.02,Sarcoïdosis
+R84,Maligniteit bronchus/long
+R85,Andere maligniteit luchtwegen
+R86,Benigne neoplasma luchtwegen
+R87,Corpus alienum neus/larynx/bronchiën
+R88,Ander letsel luchtwegen
+R89,Aangeboren afwijking(en) luchtwegen
+R90,Hypertrofie/chronische infectie tonsillen/adenoïd
+R91,Chronische bronchitis/bronchiëctasieën
+R91.01,Chronische bronchitis
+R91.02,Bronchiëctasieën
+R93,Pleuravocht
+R95,Emfyseem/COPD
+R96,Astma
+R96.01,Hyperreactiviteit luchtwegen
+R96.02,Allergisch astma
+R97,Hooikoorts/allergische rhinitis
+R98,Hyperventilatie
+R99,Andere ziekte(n) luchtwegen
+R99.01,Neusseptumdeviatie
+R99.02,Neuspoliep
+R99.03,Stembandpoliep/stembandknobbeltjes [ex. R86]
+R99.04,Pneumothorax
+R99.05,Aspiratiepneumonie
+R99.06,Pneumoconiose
+S01,Pijn/gevoeligheid huid
+S02,"Pruritus/jeuk [ex. D05,X16]"
+S03,Wratten
+S04,Lokale zwelling/papel/knobbel huid/subcutis
+S05,Multiple zwellingen/papels/knobbels huid/subcutis
+S06,Lokale roodheid/erytheem huid
+S07,Gegeneraliseerde roodheid/erytheem huid
+S08,Andere verandering(en) in kleur huid
+S09,Lokale infectie vinger/teen/paronychia
+S09.01,Paronychia
+S09.02,Panaritium
+S10,Furunkel/karbunkel/cellulitis lokaal
+S10.01,Furunkel/karbunkel
+S10.02,Furunculose
+S10.03,Cellulitis [ex. S09]
+S11,Andere lokale infectie(s) huid/subcutis
+S11.01,Folliculitis
+S12,Beet/steek insekt
+S12.01,Tekenbeet
+S13,Beet mens/dier
+S14,Brandwond/verbranding huid (elke graad)
+S15,Corpus alienum huid/subcutis
+S16,Buil/kneuzing/contusie intacte huid
+S16.01,Subunguaal hematoom
+S17,Schaafwond/schram/blaar
+S18,Scheurwond/snijwond
+S19,Ander letsel van de huid/subcutis
+S19.01,Nagelluxatie
+S20,Likdoorn(s)/eeltknobbel(s)
+S21,Andere symptomen/klachten aspect huid
+S21.01,Droge huid/schilferen
+S21.02,Lichenificatie/induratie
+S22,Symptomen/klachten nagels
+S23,Haaruitval/alopecia
+S23.01,Alopecia areata
+S23.02,Alopecia androgenetica
+S24,Andere symptomen/klachten haar
+S24.01,Hirsutisme
+S24.02,Verandering haarkleur
+S26,Angst voor kanker huid/subcutis
+S27,Angst voor andere ziekte huid/subcutis
+S28,Functiebeperking/handicap huid/subcutis
+S29,Andere symptomen/klachten huid/subcutis
+S70,Herpes zoster
+S70.01,Herpes zoster
+S70.02,Post-herpetische neuralgie
+S71,"Herpes simplex [ex. F85,X90,Y72]"
+S71.01,Herpes labialis
+S72,Scabies/andere aandoening door mijten
+S72.01,Scabies
+S73,Pediculosis/andere huidinfestatie
+S73.01,Pediculosis capitis
+S73.02,Pediculosis pubis
+S74,Dermatomycose(n)
+S74.01,Tinea pedis
+S74.02,Onychomycose
+S74.03,Pityriasis versicolor
+S75,"Moniliasis/candidiasis [ex. X72,Y75]"
+S75.01,Candidiasis mond/spruw
+S75.02,Candidiasis nagels/nagelriemen
+S75.03,Intertrigo/luiercandidiasis
+S76,Andere infectie huid/subcutis
+S76.01,Erysipelas
+S76.02,Erythrasma
+S77,Maligniteit huid/subcutis
+S77.01,Basaalcelcarcinoom
+S77.02,Spinocellulair/plaveiselcelcarcinoom
+S77.03,Maligne melanoom
+S77.04,Kaposi-sarcoom
+S78,Lipoom
+S79,Ander benigne neoplasma huid/subcutis
+S79.01,Dermatofibroom
+S80,Ander/niet-gespecificeerd neoplasma huid/subcutis
+S80.01,Dysplastische naevus
+S81,Hemangioom/lymfangioom
+S82,Naevus/moedervlek
+S83,Andere aangeboren afwijking(en) huid/subcutis
+S83.01,Naevus flammeus
+S83.02,Aardbeinaevus
+S84,Impetigo/impetiginisatie
+S85,Pilonidaal cyste/fistel
+S86,Seborroïsch eczeem/roos
+S86.01,Hoofdroos
+S86.02,Berg
+S87,Constitutioneel eczeem
+S88,Contact eczeem/ander eczeem
+S88.01,Contacteczeem
+S88.02,Dyshidrotisch eczeem
+S88.03,Dermatitis bij lokale toediening geneesmiddel
+S88.04,Zonneallergie/fotodermatose
+S89,Luiereczeem
+S90,Pityriasis rosea
+S91,Psoriasis (met of zonder artropathie)
+S92,Ziekte(n) zweetklieren
+S92.01,Anhidrosis/dyshidrosis
+S92.02,Hidradenitis
+S93,Atheroomcyste/epitheelcyste
+S93.01,Atheroomcyste
+S93.02,Epitheelcyste
+S94,Unguis incarnatus/andere nagelaandoening
+S94.01,Unguis incarnatus
+S94.02,Onychogryposis
+S95,Mollusca contagiosa
+S96,Acne
+S96.01,Acne vulgaris
+S96.02,Acne conglobata
+S97,Ulcus cruris/decubitus/chronisch ulcus
+S97.01,Ulcus cruris
+S97.02,Decubitus
+S98,Urticaria
+S99,Andere ziekte(n) huid/subcutis
+S99.01,Granuloma pyogenicum/teleangiectaticum
+S99.02,Verruca seborroica
+S99.03,Rosacea
+S99.04,Vitiligo
+S99.05,Discoïde lupus erythematodes
+S99.06,Lichen planus
+S99.07,Striae
+S99.08,Erythema nodosum
+S99.09,Keloïd
+S99.10,Keratoacanthoom
+T01,Overmatige dorst
+T02,Overmatige eetlust
+T03,Verminderde eetlust
+T04,Voedingsprobleem zuigeling/kind [ex. P11]
+T05,Voedingsprobleem volwassene [ex. T06]
+T06,Anorexia nervosa/boulimie
+T06.01,Anorexia nervosa
+T06.02,Boulimie
+T07,Gewichtstoename
+T08,Gewichtsverlies
+T10,Achterblijven verwachte fysiologische ontwikkeling
+T11,Dehydratie
+T15,Knobbel/zwelling schildklier
+T26,Angst voor kanker endocriene klieren
+T27,Angst andere ziekte endocriene klieren/metabolisme/voeding
+T28,Funct.beperking/handicap endocr. klieren/metabolisme/voeding
+T29,And. sympt./klacht. endocr. klieren/metabolisme/voeding
+T70,Infectie endocriene klier(en)
+T71,Maligniteit schildklier
+T72,Benigne neoplasma schildklier
+T73,Ander/niet-gespecificeerd neoplasma endocriene klieren
+T78,Persisterende ductus thyreoglossus/cyste
+T80,Andere aangeboren afwijking endocriene klieren/metabolisme
+T81,"Struma/noduli [ex. T85,T86]"
+T82,Adipositas
+T83,Overgewicht
+T85,Hyperthyreoïdie/thyreotoxicose
+T86,Hypothyreoïdie/myxoedeem
+T87,Hypoglykemie
+T88,Renale glucosurie
+T90,Diabetes mellitus
+T90.01,Diabetes mellitus type 1
+T90.02,Diabetes mellitus type 2
+T91,Vitamine-/voedingsdeficiëntie(s)
+T91.01,Vitaminedeficiëntie
+T92,Jicht
+T93,Vetstofwisselingsstoornis(sen)
+T93.01,Hypercholesterolemie
+T93.02,Hypertriglyceridemie
+T93.03,Gemengde hyperlipidemie
+T93.04,Familiaire hypercholesterolemie/lipidemie
+T99,Andere ziekte(n) endocriene klieren/metabolisme/voeding
+T99.01,Immuundeficiëntie
+T99.02,Thyreoïditis
+T99.03,Lactose-intolerantie
+T99.04,Hyperhomocysteïnemie
+T99.05,Pubertas praecox
+T99.06,Polycysteus ovariumsyndroom
+T99.07,Premature menopauze
+T99.08,Syndroom van Cushing
+T99.09,Syndroom van Addison
+T99.10,Cystic fibrosis
+T99.11,Porfyrie
+U01,Pijnlijke mictie
+U02,Frequente mictie/aandrang
+U04,Urine-incontinentie [ex. P12]
+U04.01,Stress-incontinentie
+U04.02,Urge-incontinentie
+U04.03,Gemengde incontinentie
+U05,Ander mictieprobleem
+U05.01,Oligurie/anurie
+U05.02,Urineretentie
+U06,Hematurie
+U07,Andere symptomen/klachten urine
+U13,Andere symptomen/klachten blaas
+U14,Symptomen/klachten nieren
+U14.01,Nierkoliek
+U26,Angst voor kanker urinewegen
+U27,Angst voor andere ziekte urinewegen
+U28,Functiebeperking/handicap urinewegen
+U29,Andere symptomen/klachten urinewegen
+U70,Acute pyelonephritis/pyelitis
+U71,Cystitis/urineweginfectie
+U71.01,Cystitis
+U71.02,Urineweginfectie neg [ex. venerisch]
+U72,"Niet specifieke urethritis [ex. X99,Y99]"
+U75,Maligniteit nier
+U76,Maligniteit blaas
+U77,Andere maligniteit urinewegen
+U78,Benigne neoplasma urinewegen
+U78.01,Poliep blaas
+U79,Niet-gespecificeerd neoplasma urinewegen
+U80,Letsel urinewegen
+U80.01,Subcapsulair nierhematoom/niercontusie
+U80.02,Corpus alienum urinewegen
+U85,Aangeboren afwijking(en) urinewegen
+U85.01,Polycystische nieren
+U88,Glomerulonephritis/nefrose
+U90,Orthostatische proteïnurie
+U95,Urolithiasis (alle vormen/lokalisaties)
+U98,Afwijkende uitslag urine-onderzoek
+U98.01,Proteïnurie
+U98.02,Glucosurie
+U99,Andere ziekte(n) urinewegen
+U99.01,Nierfunctiestoornis/nierinsufficiëntie
+U99.02,Schrompelnier/nierhypoplasie eci
+U99.03,Obstructieve en reflux-uropathie/hydronefrose
+U99.04,Urethrastrictuur
+W01,Vraag bestaan zwangerschap [ex. W02]
+W02,Angst zwanger te zijn
+W03,Bloedverlies tijdens zwangerschap
+W03.01,Bloedverlies eerste trimester
+W03.02,Bloedverlies tweede/derde trimester
+W05,Misselijkheid/braken in zwangerschap
+W05.01,Hyperemesis gravidarum
+W10,Morning after pil/postcoïtale anticonceptie
+W10.01,Morning after pil
+W10.02,Morning after spiraal
+W11,Anticonceptie: orale anticonceptie
+W12,Anticonceptie: IUD
+W13,Sterilisatie vrouw
+W14,Andere anticonceptie vrouw
+W14.01,Pessarium occlusivum
+W14.02,Prikpil
+W15,Sub-/infertiliteit vrouw
+W17,Hevig bloedverlies post-partum
+W18,Andere klachten post-partum/kraambed
+W18.01,Riekende/overvloedige lochia
+W19,Symptomen/klachten borstvoeding
+W20,Andere symptomen/klachten borsten zwangerschap/kraambed
+W27,Angst voor complicaties zwangerschap/bevalling
+W28,Functiebeperking/handicap ten gevolge van zwangerschap
+W28.01,Bekkeninstabiliteit
+W29,And. sympt./klacht. zwangersch./beval./kraamb./anticonceptie
+W29.01,Minder leven voelen
+W29.02,Bezorgd/ontevreden over uiterlijk tijdens zwangerschap
+W70,Puerperale infectie/sepsis
+W70.01,Endometritis puerperalis
+W70.02,Geïnfecteerde perineumwond
+W71,Andere infectie(s) zwangerschap/kraambed [ex. W70]
+W72,Maligniteit in verband met zwangerschap
+W73,Benigne neoplasma in verband met zwangerschap
+W75,Zwangerschap complicerende letsels
+W76,Zwangerschap complicerende aangeboren afwijking moeder
+W77,Zwangerschap complicerende niet-obstetrische factor
+W77.01,Varices in zwangerschap
+W77.02,Hemorroïden in zwangerschap
+W77.03,Diep veneuze trombose in zwangerschap
+W78,Zwangerschap: bevestigd
+W79,Ongewenste zwangerschap: bevestigd
+W80,Ectopische zwangerschap
+W81,Toxicose/(pre-)eclampsie
+W81.01,Pre-existente hypertensie in zwangerschap
+W81.02,Toxicose/preëclampsie
+W81.03,HELLP-syndroom
+W82,Spontane abortus
+W83,Abortus provocatus
+W84,Zwangerschap met verhoogd risico
+W84.01,Urogenitale infectie in zwangerschap
+W84.02,Zwangerschapsdiabetes
+W84.03,Preëxistente diabetes in zwangerschap
+W84.04,Groeivertraging/afwijkende groei foetus
+W84.05,Disproportie
+W84.06,Cervixinsufficiëntie
+W84.07,Liggingsafwijking foetus
+W84.08,Bloedgroep-/rhesusantagonisme
+W90,Normale bevalling levendgeborene
+W91,Normale bevalling doodgeborene
+W92,Gecompliceerde bevalling levendgeborene
+W92.01,Sectio caesarea
+W92.02,Vacuümextractie
+W92.03,Forcipale extractie
+W93,Gecompliceerde bevalling doodgeborene
+W94,Mastitis puerperalis
+W95,Andere aandoening borsten kraambed
+W95.01,Lactatiestoornissen
+W95.02,Tepelkloven
+W96,Andere complicatie(s) kraambed
+W96.01,Vertraagde involutie uterus
+W96.02,Dehiscentie episiotomie/obstetrische wond
+W99,And. ziekte(n) ivm zwangersch./beval./kraamb./anticonceptie
+W99.01,Valse weeën
+W99.02,Serotinitas
+W99.03,Trombose kraambed
+W99.04,Hemorroïden kraambed
+X01,Pijn geslachtsorganen vrouw
+X02,Pijnlijke menstruatie
+X03,Intermenstruele pijn
+X04,Pijnlijke coïtus vrouw
+X05,Amenorroe/hypomenorroe/oligomenorroe
+X05.01,Amenorroe
+X05.02,Hypomenorroe/oligomenorroe
+X06,Menorragie
+X07,Onregelmatige/frequente menstruatie
+X07.01,Polymenorroe
+X07.02,Onregelmatige menstruatie
+X08,Intermenstrueel bloedverlies
+X08.01,Ovulatiebloeding
+X09,Premenstruele symptomen/klachten
+X10,Uitstel van de menstruatie
+X11,Climacteriële symptomen/klachten
+X11.01,Opvliegingen
+X11.02,Atrofische vaginitis
+X12,Postmenopauzaal bloedverlies
+X13,Bloedverlies na coïtus
+X14,Vaginale afscheiding [ex. X08]
+X15,Andere symptomen/klachten vagina
+X16,Symptomen/klachten vulva
+X17,Symptomen/klachten kleine bekken
+X18,Pijn in de borsten vrouw
+X19,Knobbel/zwelling borst(en) vrouw
+X20,Symptomen/klachten tepel vrouw
+X20.01,Tepeluitvloed
+X21,Andere symptomen/klachten borsten vrouw
+X23,Angst voor geslachtsziekte vrouw
+X24,Angst voor seksueel disfunctioneren vrouw
+X25,Angst voor kanker geslachtsorganen vrouw
+X26,Angst voor borstkanker vrouw
+X27,Angst voor andere ziekte geslachtsorganen/borsten vrouw
+X28,Functiebeperking/handicap geslachtsorganen vrouw
+X29,Andere symptomen/klachten geslachtsorganen vrouw
+X29.01,Ontevreden/bezorgd over uiterlijk borsten
+X70,Lues vrouw [ex. A90]
+X71,Gonorroe vrouw
+X72,Candidiasis urogenitale vrouw
+X73,Trichomonas urogenitale vrouw
+X74,Ontsteking kleine bekken/PID
+X74.01,PID door Chlamydia
+X75,Maligniteit cervix uteri
+X76,Maligniteit borst vrouw
+X76.01,Adenocarcinoom mamma vrouw
+X77,Andere maligniteit geslachtsorganen vrouw
+X77.01,Endometriumcarcinoom
+X77.02,Maligniteit ovarium
+X78,Benigne neoplasma uterus/cervix uteri
+X78.01,Myoma uteri
+X79,Benigne neoplasma borsten vrouw [ex. X88]
+X80,Ander benigne neoplasma geslachtsorganen vrouw
+X81,Ander/niet-gespecificeerd neoplasma geslachtsorganen vrouw
+X82,Letsel geslachtsorganen vrouw
+X82.01,Corpus alienum geslachtsorganen vrouw
+X83,Aangeboren afwijking(en) geslachtsorganen vrouw
+X83.01,Hymen imperforata
+X84,Vaginitis/vulvitis nao
+X84.01,Vaginitis door Chlamydia
+X84.02,Bacteriële vaginose
+X85,Cervicitis/andere ziekte cervix
+X85.01,Cervicitis door Chlamydia
+X85.02,Cervixerosie/ectopie
+X85.03,Cervixpoliep
+X86,Afwijkende cervixuitstrijk
+X87,Prolaps vagina/uterus
+X87.01,Cystokèle/rectokèle
+X87.02,Uterovaginale prolaps
+X88,Fibroadenoom/polycystische afwijking borsten
+X89,Premenstrueel spanningssyndroom
+X90,Herpes genitalis vrouw
+X91,Condylomata acuminata vrouw
+X99,Andere ziekte(n) geslachtsorganen/borsten vrouw
+X99.01,Bartholinitis
+X99.02,Endometriose
+X99.03,Ovariumcyste
+X99.04,Mastitis [ex. W94]
+X99.05,Habituele abortus
+X99.06,Lymphogranuloma venereum
+Y01,Pijn in penis
+Y02,Pijn testis/scrotum
+Y03,Afscheiding penis/urethra
+Y04,Andere symptomen/klachten penis
+Y05,Symptomen/klachten scrotum/testis
+Y05.01,Zwelling testis
+Y06,Symptomen/klachten prostaat
+Y07,"Symptomen/klachten potentie [ex. P07,P08]"
+Y08,"Ander seksueel probleem man [ex. P07,P08]"
+Y10,Sub-/infertiliteit man
+Y13,Sterilisatie man
+Y14,Andere anticonceptie man
+Y14.01,Condoom
+Y16,Symptomen/klachten borsten man
+Y24,Angst voor seksueel disfunctioneren man
+Y25,Angst voor geslachtsziekte man
+Y26,Angst voor kanker geslachtsorganen man
+Y27,Angst andere ziekte geslachtsorganen/borsten man
+Y28,Functiebeperking/handicap geslachtsorganen man
+Y29,Andere symptomen/klachten geslachtsorganen man
+Y29.01,Gynaecomastie
+Y70,Lues man [ex. A90]
+Y71,Gonorroe man
+Y72,Herpes genitalis man
+Y73,Prostatitis/vesiculitis seminalis
+Y74,Orchitis/epididymitis
+Y74.01,Orchitis
+Y74.02,Epididymitis
+Y75,Balanitis
+Y75.01,Candida balanitis
+Y76,Condylomata acuminata man
+Y77,Maligniteit prostaat
+Y78,Andere maligniteit geslachtsorganen/borsten man
+Y78.01,Maligniteit penis
+Y78.02,Maligniteit testis
+Y78.03,Maligniteit borst
+Y79,Benigne neoplasma geslachtsorganen/borsten man
+Y80,Letsel geslachtsorganen man
+Y80.01,Corpus alienum geslachtsorganen man
+Y81,Phimosis/slurf-preputium
+Y82,Hypospadie
+Y83,Cryptorchisme/niet ingedaalde testis
+Y84,Andere aangeboren afwijking(en) geslachtsorganen/borsten man
+Y84.01,Retractiele testis
+Y85,Benigne prostaathypertrofie
+Y86,Hydrokèle
+Y99,Andere ziekte(n) geslachtsorganen/borsten man
+Y99.01,Torsio testis
+Y99.02,Spermatokèle
+Y99.03,Chlamydia-infectie man
+Z01,Armoede/financieel probleem
+Z02,Probleem met voedsel/water
+Z03,Probleem huisvesting/buurt
+Z03.01,Inadequate behuizing
+Z03.02,Dakloos
+Z03.03,Burenruzie/lawaaioverlast
+Z04,Probleem met sociale/culturele achtergrond
+Z04.01,Discriminatie ras/religie/sekse
+Z04.02,Probleem door illegaal verblijf
+Z04.03,Eenzaamheid
+Z04.04,Probleem met pensionering
+Z04.05,Empty nest syndrome
+Z05,Probleem met werksituatie
+Z05.01,Dreigend ontslag
+Z05.02,Arbeidsconflict/probleem met collega's
+Z05.03,Hoge werkdruk
+Z05.04,Blootstelling aan lawaai op werk
+Z05.05,Blootstelling aan toxische stoffen op werk
+Z06,Probleem met werkloosheid
+Z07,Probleem met opleiding
+Z07.01,Analfabetisme
+Z07.02,Achterblijven/blijven zitten op school
+Z07.03,Gezakt voor examen
+Z08,Probleem met sociale verzekering/welzijnszorg
+Z08.01,Probleem met ziektewet/WAO
+Z08.02,Probleem met bijstand
+Z09,Probleem met justitie/politie
+Z09.01,Gevangenschap/gevangenisstraf
+Z09.02,Probleem met voogdijschap/alimentatie
+Z10,Probleem toegankelijkheid/beschikbaarheid gezondheidszorg
+Z10.01,Wachten op behandeling
+Z10.02,Wachten op plaats verzorgings-/verpleeghuis
+Z11,Probleem met ziek zijn
+Z12,Relatieprobleem met partner
+Z12.01,Scheiding van partner
+Z12.02,Mishandeling/seksueel misbruik door partner
+Z13,Probleem met gedrag van partner
+Z13.01,Probleem met verslaving van partner
+Z13.02,Probleem met agressie van partner
+Z13.03,Probleem met ontrouw van partner
+Z14,Probleem met ziekte van partner
+Z15,Verlies/overlijden van partner
+Z16,Relatieprobleem met kind
+Z16.01,Mishandeling/seksueel misbruik van kind
+Z16.02,Verwaarlozing van kind
+Z16.03,Opvoeding van kind buiten gezinsverband
+Z18,Probleem met ziekte van kind
+Z19,Verlies/overlijden van kind
+Z20,Relatieprobleem met ouders/familie
+Z21,Probleem met gedrag van ouders/familie
+Z21.01,Probleem met verslaving van ouders/familie
+Z21.02,Probleem met agressie van ouders/familie
+Z22,Probleem met ziekte van ouders/familie
+Z23,Verlies/overlijden van ouders/familie
+Z24,Relatieprobleem met vrienden
+Z25,Probleem ten gevolge van geweld
+Z25.01,Probleem ten gevolge van aanranding/verkrachting
+Z27,Angst een sociaal probleem te hebben
+Z28,Sociale functiebeperking/handicap
+Z29,Ander sociaal probleem
+Z29.01,Burn-out
+Z29.02,Gebrek aan vrije tijd/ontspanning
+Z29.03,Afhankelijkheid van anderen
