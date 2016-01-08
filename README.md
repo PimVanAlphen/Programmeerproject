@@ -14,3 +14,6 @@ De data haal ik van de huisartsenpraktijk waar ik werk. Deze praktijk bestaat ui
 
 ### de initiele schets:
 ![eerste schets] (https://github.com/PimVanAlphen/Programmeerproject/blob/master/doc/eerste%20schets.png)
+
+### wat heb ik nu het week 1 is:
+![einde week 1] (https://github.com/PimVanAlphen/Programmeerproject/blob/master/doc/Einde%20week%201.png)
