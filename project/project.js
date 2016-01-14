@@ -13,6 +13,7 @@ function ready(error, dataproject, indeling, ICPC, icpcJson) {
   //console.log(indeling)
   console.log(icpcJson)
   //console.log(d3.json(icpcJson))
+
   // maak variabelen voor bepaalde veelgebruikte selecties
   var svgMap = d3.select("body").select("svg");
   var tooltip = d3.select("body").select("div");
@@ -90,7 +91,53 @@ function ready(error, dataproject, indeling, ICPC, icpcJson) {
 
   // http://bl.ocks.org/mbostock/4339184
   showDatatree = function() {
-    svgMap.style("visibility","hidden")
+    //svgMap.style("visibility","hidden")
+
+    var width = 500,
+        height = 4000;
+
+    var cluster = d3.layout.cluster()
+        .size([height, width - 160]);
+
+    var diagonal = d3.svg.diagonal()
+        .projection(function(d) { return [d.y, d.x]; });
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width)
+        .attr("height", height)
+      .append("g")
+        .attr("transform", "translate(40,0)");
+
+    var nodes = cluster.nodes(icpcJson),
+        links = cluster.links(nodes);
+
+    var link = svg.selectAll(".link")
+        .data(links)
+      .enter().append("path")
+        .attr("class", "link")
+        .attr("d", diagonal);
+
+    var node = svg.selectAll(".node")
+        .data(nodes)
+      .enter().append("g")
+        .attr("class", "node")
+        .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; })
+
+    node.append("circle")
+        .attr("r", 4.5);
+
+    node.append("text")
+        .attr("dx", function(d) { return d.children ? -8 : 8; })
+        .attr("dy", 3)
+        .style("text-anchor", function(d) { return d.children ? "end" : "start"; })
+    .text(function(d) {
+        if (d.name.length > 35) {
+          var split = splitString(d.name, 35)
+          console.log(d.code + ": "+ split)
+          return (d.code + ": "+ split)
+        }
+        return d.code+": "+d.name;
+    });
 
   }
 
@@ -112,4 +159,15 @@ getTotal = function(dataset, dataname, itemname){ // eg. (dataproject, "buurtcod
     if (comparison == itemname) {total++};
   }
   return total
+}
+
+splitString = function(string, slen){
+  var splitname = string.split(' ');
+  var counter = 0, split1 = "", split2 = "";
+  for (var i = 0, l = splitname.length; i < l; i++){
+    counter += splitname[i].length;
+    if (counter < slen) {split1 = split1 + splitname[i] + " "}
+    else {split2 = split2 + splitname[i] + " "};
+  }
+  return (split1 + "\n" + split2);
 }

@@ -16,15 +16,9 @@ def main():
                 if parent["code"] == code[0][0]:
                     parent["children"].append({"name":code[1],"code":code[0]})
 
-    finalJson = json.dumps(icpcJson)
-
     #https://docs.python.org/2/library/json.html
-    finalPrettyJson = json.dumps(icpcJson, indent=4, separators=(',', ': '))
-
-    print finalPrettyJson
-
     with open('icpcJson.json', 'w') as outfile:
-        json.dump(finalJson, outfile)
+        json.dump(icpcJson, outfile)
 
 if __name__ == '__main__':
 	main()
