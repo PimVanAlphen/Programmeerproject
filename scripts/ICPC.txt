@@ -86,8 +86,8 @@ A90 Multiple aangeboren afwijkingen
 A90.01 Syndroom van Down
 A91 Afwijkende uitslag(en) onderzoek
 A91.05 Gestoorde glucosetolerantie
-A91.06 Subklinische hypothyreoïdie
-A91.07 Subklinische hyperthyreoïdie
+A91.06 Subklinische hypothyreoidie
+A91.07 Subklinische hyperthyreoidie
 A92 Toxoplasmose
 A93 Dysmatuur/prematuur/immatuur levendgeborene
 A94 Perinatale morbiditeit
@@ -125,18 +125,18 @@ B77 Ander letsel bloed/lymfestelsel
 B78 Erfelijke hemolytische anemie
 B78.01 Thalassemie
 B78.02 Sikkelcelanemie
-B78.03 Anemie door G6PD-deficiëntie
+B78.03 Anemie door G6PD-deficientie
 B79 Andere aangeboren afwijking bloed/lymfestel
 B80 Ijzergebrekanemie
-B81 Pernicieuze/foliumzuurdeficiëntie-anemie
-B81.01 Foliumzuurdeficiëntie-anemie
-B81.02 Vitamine B12-deficiëntie-anemie
+B81 Pernicieuze/foliumzuurdeficientie-anemie
+B81.01 Foliumzuurdeficientie-anemie
+B81.02 Vitamine B12-deficientie-anemie
 B82 Andere/niet-gespecificeerde anemie
 B83 Purpura/stollingsstoornis/afwijkende trombocyten
 B83.01 Hemofilie A/B
 B83.02 Idiopathische trombocytopenische purpura (ITP)
 B83.06 Verhoogde stollingsneiging
-B84 Afwijking leukocyten
+B84 Afwijking leukocyte
 B85 Onverklaarde afwijking bloedonderzoek
 B86 Andere hematologische afwijking(en)
 B86.01 Verhoogde BSE
@@ -273,7 +273,7 @@ F27 Angst voor ziekte oog
 F28 Functiebeperking/handicap oog/adnexen
 F29 Andere symptomen/klachten oog/adnexen
 F70 Infectieuze conjunctivitis
-F70.01 Bacteriële conjunctivitis
+F70.01 Bacteriele conjunctivitis
 F70.02 Virale conjunctivitis
 F71 Allergische/niet-gespecificeerde conjunctivitis
 F71.01 Allergische conjunctivitis
@@ -325,7 +325,7 @@ F99.02 Blepharochalasis
 F99.03 Entropion/ectropion
 F99.04 Pterygium
 F99.05 Scleritis/episcleritis
-F99.06 Insufficiënte traanfilm
+F99.06 Insufficiente traanfilm
 H01 Oorpijn
 H02 Gehoorklachten [ex. H84,H85,H86]
 H03 Oorsuizen/tinnitus
@@ -343,7 +343,7 @@ H72 Otitis media met effusie
 H73 Tubair catarre/tubastenose
 H74 Chronische otitis media/andere infectie oor
 H74.01 Chronische otitis media
-H74.02 Mastoïditis
+H74.02 Mastoiditis
 H74.03 Cholesteatoom
 H75 Neoplasma oor
 H75.01 Maligniteit oor
@@ -355,7 +355,7 @@ H79 Ander letsel oor
 H80 Aangeboren afwijking(en) oor
 H81 Overmatig cerumen
 H82 Vertigosyndroom/labyrinthitis [ex. N17]
-H82.01 Ziekte/syndroom van Menière
+H82.01 Ziekte/syndroom van Meniere
 H82.02 Labyrinthitis/vestibulitis
 H82.03 Benigne paroxysmale positie duizeligheid
 H83 Otosclerose
@@ -410,23 +410,23 @@ K81 Hartgeruis
 K82 Cor pulmonale
 K83 Niet-reumatische klepaandoening
 K83.01 Aortastenose
-K83.02 Mitralisinsufficiëntie
+K83.02 Mitralisinsufficientie
 K84 Andere hartziekte(n)
 K84.01 WPW-syndroom
 K84.02 Atrioventriculair blok
 K84.03 Cardiomyopathie
 K84.07 Lang QT interval syndroom (LQTS)
 K85 Verhoogde bloeddruk [ex. K86,K87]
-K86 Essentiële hypertensie zonder orgaanbeschadiging
+K86 Essentiele hypertensie zonder orgaanbeschadiging
 K87 Hypertensie met orgaanbeschadiging/secundaire hypertensie
 K88 Orthostatische hypotensie
-K89 Passagère cerebrale ischemie/TIA
+K89 Passagere cerebrale ischemie/TIA
 K90 Cerebrovasculair accident (CVA)
-K90.01 Subarachnoïdale bloeding
+K90.01 Subarachnoidale bloeding
 K90.02 Intracerebrale bloeding
 K90.03 Cerebraal infarct
 K91 Atherosclerose [ex. K76,K90]
-K92 Andere ziekte(n) perifere arteriën
+K92 Andere ziekte(n) perifere arterien
 K92.01 Claudicatio intermittens
 K92.02 Syndroom van Raynaud
 K92.03 Ziekte van Buerger
@@ -435,12 +435,12 @@ K94 Thrombophlebitis/flebotrombose
 K94.01 Diepe veneuze trombose benen
 K94.02 Oppervlakkige thrombophlebitis
 K95 Varices benen [ex. S97]
-K96 Hemorroïden
+K96 Hemorroiden
 K99 Andere ziekte(n) hartvaatstelsel
 K99.01 Aneurysma aorta
 K99.02 Slokdarmvarices
 K99.03 Varicocele
-K99.04 Chronisch veneuze insufficiëntie
+K99.04 Chronisch veneuze insufficientie
 K99.05 Arteriitis temporalis met/zonder polymyalgia rheumatica
 K99.06 Perifere diabetische angiopathie
 L01 Nek symptomen/klachten [ex. N01]
@@ -520,8 +520,8 @@ L85.01 Scoliose
 L86 Lage-rugpijn met uitstraling
 L86.01 HNP (thoracaal/lumbaal)
 L87 Ganglion gewricht/pees
-L88 Reumatoïde arthritis/verwante aandoening(en)
-L88.01 Reumatoïde arthritis
+L88 Reumatoide arthritis/verwante aandoening(en)
+L88.01 Reumatoide arthritis
 L88.02 Morbus Bechterew (spondylitis ankylopoetica)
 L89 Coxartrose
 L90 Gonartrose
@@ -532,7 +532,7 @@ L94 Osgood-Schlatter/andere osteochondropathie
 L94.01 Osteochondritis dissecans
 L94.02 Ziekte van Osgood-Schlatter
 L94.03 Epifysiolyse femurkop
-L94.04 Ziekte van Legg-Calvé-Perthes
+L94.04 Ziekte van Legg-Calve-Perthes
 L95 Osteoporose
 L95.01 Osteopenie
 L95.02 Osteoporose
@@ -566,7 +566,7 @@ L99.10 Corpus liberum gewricht [ex. L97]
 L99.11 Pseudartrose
 L99.12 Polymyalgia reumatica
 N01 Hoofdpijn [ex. N02,N89,R09]
-N01.01 Geneesmiddel geïnduceerde hoofdpijn
+N01.01 Geneesmiddel geinduceerde hoofdpijn
 N02 Spanningshoofdpijn
 N03 Aangezichtspijn
 N04 Restless legs
@@ -589,7 +589,7 @@ N70 Poliomyelitis/andere enterovirus infectie
 N70.01 Poliomyelitis acuta
 N70.02 Slow-virus infectie zenuwstelsel
 N71 Meningitis/encephalitis
-N71.01 Bacteriële meningitis
+N71.01 Bacteriele meningitis
 N71.02 Virale meningitis
 N71.03 Encephalitis
 N71.04 Myelitis
@@ -618,7 +618,7 @@ N91 Facialis parese/Bell's palsy
 N92 Trigeminus neuralgie
 N93 Carpale tunnelsyndroom
 N94 Andere perifere neuritis/neuropathie
-N94.01 Syndroom van Guillain-Barré
+N94.01 Syndroom van Guillain-Barre
 N94.02 Diabetische neuropathie
 N94.03 Thoracic outlet syndroom
 N94.04 Meralgia paresthetica
@@ -661,7 +661,7 @@ P18 Geneesmiddelmisbruik
 P19 Drugsmisbruik
 P19.01 Misbruik/verslaving soft drugs
 P19.02 Misbruik/verslaving hard drugs
-P20 Geheugen-/concentratie-/oriëntatiestoornissen
+P20 Geheugen-/concentratie-/orientatiestoornissen
 P21 Overactief kind/hyperkinetisch syndroom
 P22 Andere zorgen gedrag kind
 P23 Andere zorgen gedrag adolescent
@@ -687,9 +687,9 @@ P74.02 Gegeneraliseerde angststoornis
 P75 Hysterie/hypochondrie
 P76 Depressie
 P76.01 Post-partum depressie
-P77 Suïcidepoging
-P77.01 Suïcidepoging
-P77.02 Suïcide
+P77 Suicidepoging
+P77.01 Suicidepoging
+P77.02 Suicide
 P78 Neurasthenie/surmenage
 P79 Andere neurose
 P79.01 Fobie
@@ -714,7 +714,7 @@ R21 Symptomen/klachten keel
 R21.01 Keelpijn
 R22 Symptomen/klachten tonsillen
 R23 Symptomen/klachten stem
-R24 Haemoptoë
+R24 Haemoptoe
 R25 Abnormaal sputum/slijm
 R26 Angst voor kanker luchtwegen
 R27 Angst voor andere ziekte luchtwegen
@@ -736,7 +736,7 @@ R75.02 Chronische sinusitis
 R76 Acute tonsillitis/peritonsillair abces
 R76.01 Acute tonsillitis
 R76.02 Peritonsillair abces
-R77 Acute laryngitis/tracheïtis
+R77 Acute laryngitis/tracheitis
 R77.01 Laryngitis subglottica/pseudocroup
 R77.02 Acute epiglottitis
 R78 Acute bronchitis/bronchiolitis
@@ -746,17 +746,17 @@ R81.01 Legionella pneumonie
 R82 Pleuritis alle vormen [ex. R70]
 R83 Andere infectie(s) luchtwegen
 R83.01 Difterie
-R83.02 Sarcoïdosis
+R83.02 Sarcoidosis
 R84 Maligniteit bronchus/long
 R85 Andere maligniteit luchtwegen
 R86 Benigne neoplasma luchtwegen
-R87 Corpus alienum neus/larynx/bronchiën
+R87 Corpus alienum neus/larynx/bronchien
 R88 Ander letsel luchtwegen
 R89 Aangeboren afwijking(en) luchtwegen
-R90 Hypertrofie/chronische infectie tonsillen/adenoïd
-R91 Chronische bronchitis/bronchiëctasieën
+R90 Hypertrofie/chronische infectie tonsillen/adenoid
+R91 Chronische bronchitis/bronchiectasieen
 R91.01 Chronische bronchitis
-R91.02 Bronchiëctasieën
+R91.02 Bronchiectasieen
 R93 Pleuravocht
 R95 Emfyseem/COPD
 R96 Astma
@@ -852,7 +852,7 @@ S83.01 Naevus flammeus
 S83.02 Aardbeinaevus
 S84 Impetigo/impetiginisatie
 S85 Pilonidaal cyste/fistel
-S86 Seborroïsch eczeem/roos
+S86 Seborroisch eczeem/roos
 S86.01 Hoofdroos
 S86.02 Berg
 S87 Constitutioneel eczeem
@@ -886,11 +886,11 @@ S99.01 Granuloma pyogenicum/teleangiectaticum
 S99.02 Verruca seborroica
 S99.03 Rosacea
 S99.04 Vitiligo
-S99.05 Discoïde lupus erythematodes
+S99.05 Discoide lupus erythematodes
 S99.06 Lichen planus
 S99.07 Striae
 S99.08 Erythema nodosum
-S99.09 Keloïd
+S99.09 Keloid
 S99.10 Keratoacanthoom
 T01 Overmatige dorst
 T02 Overmatige eetlust
@@ -918,15 +918,15 @@ T80 Andere aangeboren afwijking endocriene klieren/metabolisme
 T81 Struma/noduli [ex. T85,T86]
 T82 Adipositas
 T83 Overgewicht
-T85 Hyperthyreoïdie/thyreotoxicose
-T86 Hypothyreoïdie/myxoedeem
+T85 Hyperthyreoidie/thyreotoxicose
+T86 Hypothyreoidie/myxoedeem
 T87 Hypoglykemie
 T88 Renale glucosurie
 T90 Diabetes mellitus
 T90.01 Diabetes mellitus type 1
 T90.02 Diabetes mellitus type 2
-T91 Vitamine-/voedingsdeficiëntie(s)
-T91.01 Vitaminedeficiëntie
+T91 Vitamine-/voedingsdeficientie(s)
+T91.01 Vitaminedeficientie
 T92 Jicht
 T93 Vetstofwisselingsstoornis(sen)
 T93.01 Hypercholesterolemie
@@ -934,10 +934,10 @@ T93.02 Hypertriglyceridemie
 T93.03 Gemengde hyperlipidemie
 T93.04 Familiaire hypercholesterolemie/lipidemie
 T99 Andere ziekte(n) endocriene klieren/metabolisme/voeding
-T99.01 Immuundeficiëntie
-T99.02 Thyreoïditis
+T99.01 Immuundeficientie
+T99.02 Thyreoiditis
 T99.03 Lactose-intolerantie
-T99.04 Hyperhomocysteïnemie
+T99.04 Hyperhomocysteinemie
 T99.05 Pubertas praecox
 T99.06 Polycysteus ovariumsyndroom
 T99.07 Premature menopauze
@@ -980,13 +980,13 @@ U80.02 Corpus alienum urinewegen
 U85 Aangeboren afwijking(en) urinewegen
 U85.01 Polycystische nieren
 U88 Glomerulonephritis/nefrose
-U90 Orthostatische proteïnurie
+U90 Orthostatische proteinurie
 U95 Urolithiasis (alle vormen/lokalisaties)
 U98 Afwijkende uitslag urine-onderzoek
-U98.01 Proteïnurie
+U98.01 Proteinurie
 U98.02 Glucosurie
 U99 Andere ziekte(n) urinewegen
-U99.01 Nierfunctiestoornis/nierinsufficiëntie
+U99.01 Nierfunctiestoornis/nierinsufficientie
 U99.02 Schrompelnier/nierhypoplasie eci
 U99.03 Obstructieve en reflux-uropathie/hydronefrose
 U99.04 Urethrastrictuur
@@ -997,7 +997,7 @@ W03.01 Bloedverlies eerste trimester
 W03.02 Bloedverlies tweede/derde trimester
 W05 Misselijkheid/braken in zwangerschap
 W05.01 Hyperemesis gravidarum
-W10 Morning after pil/postcoïtale anticonceptie
+W10 Morning after pil/postcoitale anticonceptie
 W10.01 Morning after pil
 W10.02 Morning after spiraal
 W11 Anticonceptie: orale anticonceptie
@@ -1020,7 +1020,7 @@ W29.01 Minder leven voelen
 W29.02 Bezorgd/ontevreden over uiterlijk tijdens zwangerschap
 W70 Puerperale infectie/sepsis
 W70.01 Endometritis puerperalis
-W70.02 Geïnfecteerde perineumwond
+W70.02 Geinfecteerde perineumwond
 W71 Andere infectie(s) zwangerschap/kraambed [ex. W70]
 W72 Maligniteit in verband met zwangerschap
 W73 Benigne neoplasma in verband met zwangerschap
@@ -1028,31 +1028,31 @@ W75 Zwangerschap complicerende letsels
 W76 Zwangerschap complicerende aangeboren afwijking moeder
 W77 Zwangerschap complicerende niet-obstetrische factor
 W77.01 Varices in zwangerschap
-W77.02 Hemorroïden in zwangerschap
+W77.02 Hemorroiden in zwangerschap
 W77.03 Diep veneuze trombose in zwangerschap
 W78 Zwangerschap: bevestigd
 W79 Ongewenste zwangerschap: bevestigd
 W80 Ectopische zwangerschap
 W81 Toxicose/(pre-)eclampsie
 W81.01 Pre-existente hypertensie in zwangerschap
-W81.02 Toxicose/preëclampsie
+W81.02 Toxicose/preeclampsie
 W81.03 HELLP-syndroom
 W82 Spontane abortus
 W83 Abortus provocatus
 W84 Zwangerschap met verhoogd risico
 W84.01 Urogenitale infectie in zwangerschap
 W84.02 Zwangerschapsdiabetes
-W84.03 Preëxistente diabetes in zwangerschap
+W84.03 Preexistente diabetes in zwangerschap
 W84.04 Groeivertraging/afwijkende groei foetus
 W84.05 Disproportie
-W84.06 Cervixinsufficiëntie
+W84.06 Cervixinsufficientie
 W84.07 Liggingsafwijking foetus
 W84.08 Bloedgroep-/rhesusantagonisme
 W90 Normale bevalling levendgeborene
 W91 Normale bevalling doodgeborene
 W92 Gecompliceerde bevalling levendgeborene
 W92.01 Sectio caesarea
-W92.02 Vacuümextractie
+W92.02 Vacuumextractie
 W92.03 Forcipale extractie
 W93 Gecompliceerde bevalling doodgeborene
 W94 Mastitis puerperalis
@@ -1063,14 +1063,14 @@ W96 Andere complicatie(s) kraambed
 W96.01 Vertraagde involutie uterus
 W96.02 Dehiscentie episiotomie/obstetrische wond
 W99 And. ziekte(n) ivm zwangersch./beval./kraamb./anticonceptie
-W99.01 Valse weeën
+W99.01 Valse weeen
 W99.02 Serotinitas
 W99.03 Trombose kraambed
-W99.04 Hemorroïden kraambed
+W99.04 Hemorroeiden kraambed
 X01 Pijn geslachtsorganen vrouw
 X02 Pijnlijke menstruatie
 X03 Intermenstruele pijn
-X04 Pijnlijke coïtus vrouw
+X04 Pijnlijke coitus vrouw
 X05 Amenorroe/hypomenorroe/oligomenorroe
 X05.01 Amenorroe
 X05.02 Hypomenorroe/oligomenorroe
@@ -1082,11 +1082,11 @@ X08 Intermenstrueel bloedverlies
 X08.01 Ovulatiebloeding
 X09 Premenstruele symptomen/klachten
 X10 Uitstel van de menstruatie
-X11 Climacteriële symptomen/klachten
+X11 Climacteriele symptomen/klachten
 X11.01 Opvliegingen
 X11.02 Atrofische vaginitis
 X12 Postmenopauzaal bloedverlies
-X13 Bloedverlies na coïtus
+X13 Bloedverlies na coitus
 X14 Vaginale afscheiding [ex. X08]
 X15 Andere symptomen/klachten vagina
 X16 Symptomen/klachten vulva
@@ -1127,14 +1127,14 @@ X83 Aangeboren afwijking(en) geslachtsorganen vrouw
 X83.01 Hymen imperforata
 X84 Vaginitis/vulvitis nao
 X84.01 Vaginitis door Chlamydia
-X84.02 Bacteriële vaginose
+X84.02 Bacteriele vaginose
 X85 Cervicitis/andere ziekte cervix
 X85.01 Cervicitis door Chlamydia
 X85.02 Cervixerosie/ectopie
 X85.03 Cervixpoliep
 X86 Afwijkende cervixuitstrijk
 X87 Prolaps vagina/uterus
-X87.01 Cystokèle/rectokèle
+X87.01 Cystokele/rectokele
 X87.02 Uterovaginale prolaps
 X88 Fibroadenoom/polycystische afwijking borsten
 X89 Premenstrueel spanningssyndroom
@@ -1192,10 +1192,10 @@ Y83 Cryptorchisme/niet ingedaalde testis
 Y84 Andere aangeboren afwijking(en) geslachtsorganen/borsten man
 Y84.01 Retractiele testis
 Y85 Benigne prostaathypertrofie
-Y86 Hydrokèle
+Y86 Hydrokele
 Y99 Andere ziekte(n) geslachtsorganen/borsten man
 Y99.01 Torsio testis
-Y99.02 Spermatokèle
+Y99.02 Spermatokele
 Y99.03 Chlamydia-infectie man
 Z01 Armoede/financieel probleem
 Z02 Probleem met voedsel/water

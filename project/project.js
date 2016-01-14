@@ -3,12 +3,16 @@ queue()
     .defer(d3.csv, "dataproject.csv")
     .defer(d3.csv, "indeling.csv")
     .defer(d3.csv, "ICPC.csv")
+    .defer(d3.json, "icpcJson.json")
     .await(ready);
 
 // als de csv files in de queue zijn geladen wordt de "main" uitgevoerd
-function ready(error, dataproject, indeling, ICPC) {
-  if (error) throw error;
+function ready(error, dataproject, indeling, ICPC, icpcJson) {
+  if(error) { console.log(error); }
 
+  //console.log(indeling)
+  console.log(icpcJson)
+  //console.log(d3.json(icpcJson))
   // maak variabelen voor bepaalde veelgebruikte selecties
   var svgMap = d3.select("body").select("svg");
   var tooltip = d3.select("body").select("div");
@@ -43,10 +47,10 @@ function ready(error, dataproject, indeling, ICPC) {
 
   // voeg een knop toe om te kunnen wisselen tussen overzicht op de buurten
   // of de wijken
-  var button = svgMap.append("rect")
+  var buttonMap = svgMap.append("rect")
       .style("height","20")
       .style("width","20")
-      .style("background-color","grey")
+      .style("fill","blue")
       .on('click', function(){
         if (mapOption == "#brt_2008_gen"){
           svgMap.select("#brt_2008_gen").style("visibility", "hidden");
@@ -56,8 +60,19 @@ function ready(error, dataproject, indeling, ICPC) {
           svgMap.select("#brt_2008_gen").style("visibility", "visible");
           mapOption = "#brt_2008_gen";
         };
+        console.log("blue/map button clicked")
       })
 
+    var buttonSelect = svgMap.append("rect")
+        .style("height","20")
+        .style("width","20")
+        .style("fill","orange")
+        .attr("x", 0)
+        .attr("y", 50)
+        .on('click', function(){
+          console.log("orange/select button clicked");
+          showDatatree();
+        })
   // voeg een mousemove event aan op de gehele svg om de tooltip aan te kunnen passen,
   // dit hoeft alleen te gebeuren als je met de muis beweegt!
   svgMap.on("mousemove", function(d){
@@ -72,6 +87,12 @@ function ready(error, dataproject, indeling, ICPC) {
             .text(hoverInfo.name);
         };
       })
+
+  // http://bl.ocks.org/mbostock/4339184
+  showDatatree = function() {
+    svgMap.style("visibility","hidden")
+
+  }
 
   // maak een box waar de search en select engine in komt.
   // maak alvast een vak voor invoer, een knop voor de tree view, en een selection box
