@@ -114,6 +114,8 @@ function ready(error, dataproject, indeling, ICPC, icpcJson) {
     var link = svg.selectAll(".link")
         .data(links)
       .enter().append("path")
+        .attr("fill","none")
+        .attr("stroke","black")
         .attr("class", "link")
         .attr("d", diagonal);
 

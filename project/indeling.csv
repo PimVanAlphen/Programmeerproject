@@ -1,50 +1,50 @@
-buurtcode,naam
-1,Oude Stad
-2,Spoorbaan Leiden
-3,Haarlem-Oost
-4,Haarlemmerhoutkwartier
-5,Westoever Noorder Buiten Spaarne
-6,Ter Kleef en Te Zaanen
-7,Oud-Schoten En Spaarndam
-8,Duinwijk
-9,Schalkwijk
-10,Centrum
-11,Stationsbuurt
-12,Spaarnwouderbuurt
-20,Zijlweg-oost
-21,Leidsebuurt
-22,Leidsevaartbuurt
-23,Houtvaartkwartier
-30,Oude Amsterdamsebuurt
-31,Potgieterbuurt
-32,Van Zeggelenbuurt
-33,Slachthuisbuurt
-34,Parkwijk
-35,Waardepolder
-36,Zuiderpolder
-40,Koninginnebuurt
-41,Kleine Hout
-42,Den Hout
-43,Rozenprieel
-50,Patrimoniumbuurt
-51,Transvaalbuurt
-52,Indischebuurt-zuid
-53,Indischebuurt-noord
-54,Frans Halsbuurt
-60,Kleverpark
-61,Bomenbuurt
-62,Planetenwijk
-63,Sinnevelt
-64,Overdelft
-70,Dietsveld
-71,Vogelenbuurt
-72,Delftwijk
-73,Vondelkwartier
-74,Spaarndam-west
-80,Ramplaankwartier
-81,Zijlweg-west
-82,Oosterduin
-90,Europawijk
-91,Boerhaavewijk
-92,Molenwijk
-93,Meerwijk
+buurtcode,naam,aantal
+1,Oude Stad,762
+2,Spoorbaan Leiden,762
+3,Haarlem-Oost,794
+4,Haarlemmerhoutkwartier,610
+5,Westoever Noorder Buiten Spaarne,727
+6,Ter Kleef en Te Zaanen,825
+7,Oud-Schoten En Spaarndam,355
+8,Duinwijk,239
+9,Schalkwijk,932
+10,Centrum,477
+11,Stationsbuurt,134
+12,Spaarnwouderbuurt,151
+20,Zijlweg-oost,178
+21,Leidsebuurt,277
+22,Leidsevaartbuurt,150
+23,Houtvaartkwartier,207
+30,Oude Amsterdamsebuurt,106
+31,Potgieterbuurt,64
+32,Van Zeggelenbuurt,136
+33,Slachthuisbuurt,214
+34,Parkwijk,97
+35,Waardepolder,75
+36,Zuiderpolder,102
+40,Koninginnebuurt,248
+41,Kleine Hout,99
+42,Den Hout,83
+43,Rozenprieel,180
+50,Patrimoniumbuurt,57
+51,Transvaalbuurt,207
+52,Indischebuurt-zuid,149
+53,Indischebuurt-noord,195
+54,Frans Halsbuurt,119
+60,Kleverpark,312
+61,Bomenbuurt,265
+62,Planetenwijk,174
+63,Sinnevelt,49
+64,Overdelft,25
+70,Dietsveld,69
+71,Vogelenbuurt,53
+72,Delftwijk,83
+73,Vondelkwartier,134
+74,Spaarndam-west,16
+80,Ramplaankwartier,154
+81,Zijlweg-west,68
+82,Oosterduin,17
+90,Europawijk,389
+91,Boerhaavewijk,156
+92,Molenwijk,205
+93,Meerwijk,182
