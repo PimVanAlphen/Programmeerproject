@@ -10,40 +10,54 @@ queue()
 function ready(error, dataproject, indeling, ICPC, icpcJson) {
   if(error) { console.log(error); }
 
-  //console.log(indeling)
-  console.log(icpcJson)
-  //console.log(d3.json(icpcJson))
-
   // maak variabelen voor bepaalde veelgebruikte selecties
   var svgMap = d3.select("body").select("svg");
   var tooltip = d3.select("body").select("div");
 
-  // maak een archief voor berekende totalen
-  var archiveTotals = {};
-  archiveTotals["one"] = "First";
+  // color specifications by Cynthia Brewer (http://colorbrewer.org/).
+  // range van kleuren die worden gebruikt voor de map.
+  var colorScheme = ["#f0f9e8","#08589e"]
+
+  // maak een archief voor berekende totalen en berekende ratios
+  var archiveTotals = {"aantal":{},"highestBuurt":{},"lowestBuurt":{},"highestWijk":{},"lowestWijk":{}};
+  var archiveRatios = {"highestBuurt":{},"lowestBuurt":{},"highestWijk":{},"lowestWijk":{}};
+  for ( var i = 0, l = indeling.length; i < l; i++ ){
+    archiveTotals[indeling[i].buurtcode] = {};
+    archiveTotals["aantal"][indeling[i].buurtcode] = indeling[i].aantal;
+    archiveRatios[indeling[i].buurtcode] = {};
+  }
 
   // maak variabelen voor bepaalde veelgebruikte opties
   var hoverInfo = {}; // variabele voor de wijk waar je met je muis over hovered
   hoverInfo["name"] = ""; hoverInfo["patientsTotal"] = 0; hoverInfo["patientsSelected"] = 0;
   var mapOption = "#wijk_2008_gen"; // variabele voor welke map je ziet: wijk of buurt
+  var codeOption = ""
+  var mapRatio = false
+
+  // some debug variables
+  var debugCodes = ['A', 'T90', 'L', 'S', 'Z']
+  var debugCounter = 0
 
   // Link de data van de wijken en buurten aan de data van de map
-  var fillDefault = "#FFFFFF";
+  var fillPrevious = "#FFFFFF";
   var fillHighlight = "#FF0000";
   svgMap.selectAll(".buurt, .wijk")
       .data(indeling)
       .on("mouseout", function(){
-        d3.select(this).style("fill",fillDefault);
+        d3.select(this).style("fill",fillPrevious);
         hoverInfo.name = "";
+        hoverInfo.patientsTotal = 0;
+        hoverInfo.patientsSelected = "";
       })
       .on("mouseover", function(d){
+        fillPrevious = (d3.select(this).style("fill"));
         d3.select(this).style("fill",fillHighlight);
         hoverInfo.name = d.naam;
-        var code = d.buurtcode;
-        if (!(code in archiveTotals)) {
-          archiveTotals[code] = getTotal(dataproject, "buurtcode", code)
+        hoverInfo.patientsTotal = d.aantal;
+        if (codeOption != "") {
+          if (mapRatio == false) {hoverInfo.patientsSelected = archiveTotals[d.buurtcode][codeOption]}
+          else {hoverInfo.patientsSelected = archiveRatios[d.buurtcode][codeOption]}
         }
-        hoverInfo.patientsTotal = archiveTotals[code]
       })
 
   // voeg een knop toe om te kunnen wisselen tussen overzicht op de buurten
@@ -61,7 +75,10 @@ function ready(error, dataproject, indeling, ICPC, icpcJson) {
           svgMap.select("#brt_2008_gen").style("visibility", "visible");
           mapOption = "#brt_2008_gen";
         };
-        console.log("blue/map button clicked")
+        if (debugCodes[debugCounter] != "") {
+          var archive = mapRatio == false ? archiveTotals : archiveRatios;
+          fillColor(codeOption, colorScheme, mapOption, archive)
+        }
       })
 
     var buttonSelect = svgMap.append("rect")
@@ -71,9 +88,48 @@ function ready(error, dataproject, indeling, ICPC, icpcJson) {
         .attr("x", 0)
         .attr("y", 50)
         .on('click', function(){
-          console.log("orange/select button clicked");
           showDatatree();
         })
+
+    var buttonCode = svgMap.append("rect")
+        .style("height","20")
+        .style("width","20")
+        .style("fill","green")
+        .attr("x", 0)
+        .attr("y", 100)
+        .on('click', function(){
+          codeOption = debugCodes[debugCounter];
+          if (!(codeOption in archiveTotals[1])) {
+            getTotalCode(archiveTotals, codeOption, dataproject)
+            getTotalRatio(archiveTotals, archiveRatios, codeOption)
+          }
+          debugCounter++;
+          if (debugCounter == 5) {debugCounter = 0};
+          var archive = mapRatio == false ? archiveTotals : archiveRatios;
+          fillColor(codeOption, colorScheme, mapOption, archive)
+        })
+
+    var buttonRatio = svgMap.append("rect")
+        .style("height","20")
+        .style("width","20")
+        .style("fill","purple")
+        .attr("x", 0)
+        .attr("y", 150)
+        .on('click', function(){
+          mapRatio = !(mapRatio)
+          console.log("mapratio is: " + mapRatio)
+          var archive = mapRatio == false ? archiveTotals : archiveRatios;
+          fillColor(codeOption, colorScheme, mapOption, archive)
+        })
+
+  fillColor = function(codeOption, colorScheme, mapOption, archive){
+    if (mapOption == "#brt_2008_gen"){var rangeSelection = ["lowestBuurt","highestBuurt",".buurt"]}
+    else {var rangeSelection = ["lowestWijk","highestWijk",".wijk"]}
+    var colorScale = d3.scale.linear().range(colorScheme);
+        colorScale.domain([archive[rangeSelection[0]][codeOption], archive[rangeSelection[1]][codeOption]])
+    svgMap.selectAll(rangeSelection[2]).style("fill", function(d){return colorScale(archive[d.buurtcode][codeOption])})
+  }
+
   // voeg een mousemove event aan op de gehele svg om de tooltip aan te kunnen passen,
   // dit hoeft alleen te gebeuren als je met de muis beweegt!
   svgMap.on("mousemove", function(d){
@@ -85,11 +141,17 @@ function ready(error, dataproject, indeling, ICPC, icpcJson) {
           tooltip.style("visibility", "visible")
             .style("left", (event.clientX + 20) + "px")
             .style("top", (event.clientY + 20) + "px")
-            .text(hoverInfo.name);
+            .html( function(){
+              if (hoverInfo.patientsSelected != "") {
+                if (mapRatio == false) {return "naam: " + hoverInfo.name + "<br/>" + "aantal patienten: " + hoverInfo.patientsTotal + "<br/>" + "geselecteerde episoden " + codeOption + ": " + hoverInfo.patientsSelected}
+                else {return "naam: " + hoverInfo.name + "<br/>" + "aantal patienten: " + hoverInfo.patientsTotal + "<br/>" + "episoden " + codeOption + " per patient: " + hoverInfo.patientsSelected}
+              }
+              else {return "naam: " + hoverInfo.name + "<br/>" + "aantal patienten: " + hoverInfo.patientsTotal}
+            });
         };
       })
 
-  // http://bl.ocks.org/mbostock/4339184
+  // http://bl.ocks.org/robschmuecker/7880033
   showDatatree = function() {
     //svgMap.style("visibility","hidden")
     d3.select("body").append("div").attr("id","tree-container")
@@ -422,18 +484,54 @@ function ready(error, dataproject, indeling, ICPC, icpcJson) {
   // maak een box waar de bar chart in moet komen
 }
 
-// deze functie pakt een dataset en een variabele naam uit die dataset (bv: buurtcode
-// uit de dataset dataproject). De derde waarde die je in moet vullen is waar op
-// gezocht moet worden. Vervolgens kijkt deze functie hoeveel variabelen uit de
-// categorie uit de dataset beginnen met de waarde.
-getTotal = function(dataset, dataname, itemname){ // eg. (dataproject, "buurtcode", 12)
-  var total = 0;
-  var chars = itemname.length
-  for (var i = 0, l = dataset.length; i < l; i++){
-    var comparison = dataset[i][dataname].substring(0, chars);
-    if (comparison == itemname) {total++};
+getTotalCode = function(dict, icpcCode, dataset){ // eg. (dataproject, "episode", 'A', 12)
+  var dictKeys = Object.keys(dict);
+  var lowestWijk = 1000, highestWijk = 0, lowestBuurt = 1000, highestBuurt = 0;
+  for (var i = 0, lk = dictKeys.length; i < lk; i++) {
+    if (dictKeys[i].length > 2) {continue}
+    var total = 0;
+    for (var j = 0, ld = dataset.length; j < ld; j++){
+      var buurtcodeComparison = dataset[j]["buurtcode"].substring(0, dictKeys[i].length);
+      var icpcCodeComparison = dataset[j]["episode"].substring(0, icpcCode.length);
+      if (buurtcodeComparison == dictKeys[i] && icpcCodeComparison == icpcCode) {total++};
+    }
+    if (total < 5) {total = 5};
+    dict[dictKeys[i]][icpcCode] = total;
+    if (dictKeys[i].length == 2) {
+      if (total < lowestBuurt){lowestBuurt = total};
+      if (total > highestBuurt){highestBuurt = total};
+    }
+    else if (dictKeys[i].length == 1) {
+      if (total < lowestWijk){lowestWijk = total};
+      if (total > highestWijk){highestWijk = total};
+    }
   }
-  return total
+  dict["highestBuurt"][icpcCode] = highestBuurt;
+  dict["lowestBuurt"][icpcCode] = lowestBuurt;
+  dict["highestWijk"][icpcCode] = highestWijk;
+  dict["lowestWijk"][icpcCode] = lowestWijk;
+}
+
+getTotalRatio = function(dictTotal, dictRatio, icpcCode) {
+  var dictKeys = Object.keys(dictTotal);
+  var lowestWijk = 1000, highestWijk = 0, lowestBuurt = 1000, highestBuurt = 0;
+  for (var i = 0, lk = dictKeys.length; i < lk; i++) {
+    if (dictKeys[i].length > 2) {continue}
+    var ratioValue = dictTotal[dictKeys[i]][icpcCode] / dictTotal["aantal"][dictKeys[i]]
+    dictRatio[dictKeys[i]][icpcCode] = ratioValue.toFixed(2)
+    if (dictKeys[i].length == 2) {
+      if (ratioValue < lowestBuurt){lowestBuurt = ratioValue};
+      if (ratioValue > highestBuurt){highestBuurt = ratioValue};
+    }
+    else if (dictKeys[i].length == 1) {
+      if (ratioValue < lowestWijk){lowestWijk = ratioValue};
+      if (ratioValue > highestWijk){highestWijk = ratioValue};
+    }
+  }
+  dictRatio["highestBuurt"][icpcCode] = highestBuurt;
+  dictRatio["lowestBuurt"][icpcCode] = lowestBuurt;
+  dictRatio["highestWijk"][icpcCode] = highestWijk;
+  dictRatio["lowestWijk"][icpcCode] = lowestWijk;
 }
 
 splitString = function(string, slen){
