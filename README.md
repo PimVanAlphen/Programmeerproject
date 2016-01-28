@@ -14,7 +14,7 @@ De visualisatie bestaat uit een schematische kaart van de wijken en buurten van 
 Patientendata is verkregen uit het HIS van het therapeuticum Haarlem. Postcodes van patienten zijn genomen en buiten de visualisatie verwerkt naar buurtcodes, gebruik makende van de referentie van de Gemeeente Haarlem (zie Bronnen). De episodes zijn gereduceerd tot een ICPC code met alleen de eerste letter en het eerste getal, dit om de privacy van patienten te waarborgen. Gegevens over de namen bij de ICPC codes zijn overgenomen van de daarover beschikbare data van het NHG.
 
 ### De visualisatie:
-![het eindproduct] (https://github.com/PimVanAlphen/Programmeerproject/blob/master/doc/finalProduct.png)
+![het eindproduct] (https://github.com/PimVanAlphen/Programmeerproject/blob/master/doc/finalProduct.PNG)
 
 ### Bronnen:
 - http://www.haarlem.buurtmonitor.nl/report/stratenlijst2013nw.pdf: Een lijst van de Gemeente Haarlem met daarop gegevens van alle straten en postcodes van Haarlem, inclusief gegevens over de buurt waartoe deze behoren. Gebruikt om postcodes om te kunnen schrijven naar buurtcodes. 
