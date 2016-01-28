@@ -24,7 +24,11 @@ Patientendata is verkregen uit het HIS van het therapeuticum Haarlem. Postcodes 
 - http://bl.ocks.org/RandomEtc/cff3610e7dd47bef2d01: voor het updaten van een barchart
 - http://bl.ocks.org/mbostock/3887051: voor het maken van een grouped barchart
 - http://bl.ocks.org/Caged/6476579: voor het maken van een tooltip op de barchart
-
+- https://upload.wikimedia.org/wikipedia/commons/1/1b/Map_-_NL_-_Haarlem_-_Wijk_01_Oude_stad.svg: voor het verkrijgen van een kaart van Haarlem verdeeld in de wijken van Haarlem.
+- https://upload.wikimedia.org/wikipedia/commons/4/48/Map_-_NL_-_Haarlem_-_Wijk_01_Oude_stad_-_Buurt_00_Centrum.svg: voor het verkrijgen van een kaart van Haarlem verdeeld in de buurten van Haarlem.
+- https://twitter.github.io/typeahead.js/examples/: voor het zoekveld en een automatisch aanvul- en zoekfunctie hierin.
+- https://github.com/bassjobsen/typeahead.js-bootstrap-css/blob/master/typeaheadjs.css: voor styling van het zoekveld zoals hierboven beschreven.
+- 
 ### Copyright Statement:
 Copyright 2016 P.A. van Alphen
 
