@@ -11,10 +11,19 @@ De visualisatie is gemaakt in javascript en heeft een lokale server nodig om te 
 De visualisatie bestaat uit een schematische kaart van de wijken en buurten van Haarlem, een zoekregel en een tweetal optieknoppen. In de zoekregel kan gezocht worden naar namen en ICPC codes van aandoeningen of klachten (dus niet van administratieve verrichtingen etc.). Als er één van deze aandoeningen gekozen wordt, dan kleuren de gebieden op de kaart zich en verschijnt er naast de kaart ook nog een staafgrafiek. De kleuren op de kaart staan voor het aantal patienten dat in dat specifieke gebied woont en de geselecteerde aandoening als episode in het patientendossier heeft staan. De staafgrafiek geeft gedetailleerd de aantallen weer. De knoppen zijn er om te wisselen tussen een kaart van Haarlem die verdeeld is in zeven wijken en een kaart die verdeeld is in 42 buurten, en om te wisselen tussen weergave van het totaal aantal van de geselecteerde episodes of een weergave van het aantal episodes per patient die in het gebied op de kaart woont. 
    
 ### De dataset:
-Patientendata is verkregen uit de HIS van het therapeuticum Haarlem. Postcodes van patienten zijn genomen en buiten de visualisatie verwerkt naar buurtcodes, gebruik makende van de referentie van de Gemeeente Haarlem (zie Bronnen)
+Patientendata is verkregen uit het HIS van het therapeuticum Haarlem. Postcodes van patienten zijn genomen en buiten de visualisatie verwerkt naar buurtcodes, gebruik makende van de referentie van de Gemeeente Haarlem (zie Bronnen). De episodes zijn gereduceerd tot een ICPC code met alleen de eerste letter en het eerste getal, dit om de privacy van patienten te waarborgen. Gegevens over de namen bij de ICPC codes zijn overgenomen van de daarover beschikbare data van het NHG.
 
 ### De visualisatie:
 ![het eindproduct] (https://github.com/PimVanAlphen/Programmeerproject/blob/master/doc/finalProduct.png)
+
+### Bronnen:
+- http://www.haarlem.buurtmonitor.nl/report/stratenlijst2013nw.pdf: Een lijst van de Gemeente Haarlem met daarop gegevens van alle straten en postcodes van Haarlem, inclusief gegevens over de buurt waartoe deze behoren. Gebruikt om postcodes om te kunnen schrijven naar buurtcodes. 
+- https://www.nhg.org/themas/publicaties/icpc-online: Voor het overnemen van de naamgeving bij ICPC codes. Deze site had als enige ook een naamgeving bij de ICPC codes die bestonden uit alleen de eerste letter en het eerste getal.
+- https://www.nhg.org/sites/default/files/content/nhg_org/uploads/icpc-versie-4-inkijkexemplaar_0.pdf: Gebruikt voor de naamgeving van de ICPC hoofdcategorieen (alleen de eerste letter).
+- http://bl.ocks.org/mbostock/3885304: voor het maken van een  barchart
+- http://bl.ocks.org/RandomEtc/cff3610e7dd47bef2d01: voor het updaten van een barchart
+- http://bl.ocks.org/mbostock/3887051: voor het maken van een grouped barchart
+- http://bl.ocks.org/Caged/6476579: voor het maken van een tooltip op de barchart
 
 ### Copyright Statement:
 Copyright 2016 P.A. van Alphen
